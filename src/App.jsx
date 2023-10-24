@@ -10,6 +10,9 @@ import Hospitality from "./container/Hospitality/Hospitality";
 import HumbleBaron from "./container/HumbleBaron/HumbleBaron";
 import TolleyHouse from "./container/TolleyHouse/TolleyHouse";
 import RealEstate from "./container/RealEstate/RealEstate";
+import Gallery from "./container/Gallery/Gallery";
+import FindUs from "./container/FindUs/FindUs";
+import Footer from "./container/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
       <HumbleBaron />
       <TolleyHouse />
       <RealEstate />
+      <Gallery />
+      <FindUs />
+      <Footer />
     </div>
   );
 }
