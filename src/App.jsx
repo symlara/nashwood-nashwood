@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./container/Header/Header";
 import AboutUs from "./container/AboutUs/AboutUs";
+import Entertainment from "./container/Entertainment/Entertainment";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutUs />
+      <Entertainment />
     </div>
   );
 }
