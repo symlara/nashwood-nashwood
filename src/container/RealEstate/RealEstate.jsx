@@ -24,7 +24,7 @@ const RealEstate = () => (
         <h1 className="headtext__cormorant">Real Estate</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
-          className="p__raleway flex-wrap"
+          className="p__raleway flex-wrap 2xl:text-lg"
           style={{ margin: "2rem 0", marginLeft: "-30px" }}
         >
           Nashwood owns a range of commercial and residential property interests

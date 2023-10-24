@@ -29,10 +29,10 @@ import "./Header.css";
 
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
-    <div className="app__wrapper_info">
+    <div className="app__wrapper_info 2xl:ml-[-50px]">
       <SubHeading title="Nashwood, Inc." />
       {/* <h1 className="app__header-h1">The Key to Fine Dining</h1> */}
-      <p className="p__raleway" style={{ margin: "2rem 0" }}>
+      <p className="p__raleway 2xl:text-xl" style={{ margin: "2rem 0" }}>
         Nashwood, Inc. is a real estate, hospitality, and entertainment company
         headquartered in Bedford County Tennessee. Nashwood’s span of work
         includes ownership and operation of a diverse real estate portfolio,
@@ -50,7 +50,7 @@ const Header = () => (
       <img
         src={url}
         alt="entertainment logo"
-        className="xl:ml-[-300px] rounded-xl"
+        className="xl:ml-[-300px] 2xl:ml-[-380px] rounded-xl entertainment-logo"
       />
       <img src={url2} alt="hospitality logo" className="rounded-xl" />
       <img src={url3} alt="humblebaron logo" className="rounded-xl" />

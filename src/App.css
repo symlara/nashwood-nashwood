@@ -72,6 +72,10 @@
   cursor: pointer;
 }
 
+.custom__button:hover {
+  color: var(--color-golden);
+}
+
 .p__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);
@@ -104,6 +108,13 @@
 
 .spoon__img {
   width: 45px;
+}
+
+/* max screen size styles */
+@media (max-width: 2240px) {
+  .app__wrapper_img img {
+    width: 70% !important;
+  }
 }
 
 @media screen and (min-width: 2000px) {

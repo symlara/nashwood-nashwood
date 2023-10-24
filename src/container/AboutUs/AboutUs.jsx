@@ -21,11 +21,14 @@ const AboutUs = () => (
     <div className="app__aboutus-overlay flex__center">
       {/* <img src={nashwoodlogo} alt="nashwood logo" /> */}
     </div>
-    <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about">
+    <div className="app__aboutus-content flex__center 2xl:mt-[-200px]">
+      <div className="app__aboutus-content_about 2xl:mt-[-300px]">
         <h1 className="headtext__cormorant">About Us</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-        <p className="p__raleway flex-wrap" style={{ margin: "2rem 0" }}>
+        <p
+          className="p__raleway flex-wrap 2xl:text-lg"
+          style={{ margin: "2rem 0" }}
+        >
           Keith Weaver is the founder and CEO of Nashwood, Inc., which is a
           leading real estate, entertainment, and hospitality company. Keith is
           experienced in developing business concepts into highly successful

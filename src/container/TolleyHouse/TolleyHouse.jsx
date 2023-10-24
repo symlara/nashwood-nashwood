@@ -24,7 +24,7 @@ const TolleyHouse = () => (
         <h1 className="headtext__cormorant">Tolley House</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
-          className="p__raleway flex-wrap"
+          className="p__raleway flex-wrap 2xl:text-lg"
           style={{ margin: "2rem 0", marginLeft: "-30px" }}
         >
           The Tolley House is the most storied Bed & Breakfast in Lynchburg,
