@@ -6,6 +6,10 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./container/Header/Header";
 import AboutUs from "./container/AboutUs/AboutUs";
 import Entertainment from "./container/Entertainment/Entertainment";
+import Hospitality from "./container/Hospitality/Hospitality";
+import HumbleBaron from "./container/HumbleBaron/HumbleBaron";
+import TolleyHouse from "./container/TolleyHouse/TolleyHouse";
+import RealEstate from "./container/RealEstate/RealEstate";
 
 function App() {
   return (
@@ -14,6 +18,10 @@ function App() {
       <Header />
       <AboutUs />
       <Entertainment />
+      <Hospitality />
+      <HumbleBaron />
+      <TolleyHouse />
+      <RealEstate />
     </div>
   );
 }

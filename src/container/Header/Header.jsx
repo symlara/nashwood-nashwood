@@ -47,10 +47,14 @@ const Header = () => (
 
     <div className="app__wrapper_img gap-2 xl:ml-[490px]">
       {/* <img src={images.welcome} alt="header img" /> */}
-      <img src={url} alt="header img" className="xl:ml-[-300px] rounded-xl" />
-      <img src={url2} alt="header img" className="rounded-xl" />
-      <img src={url3} alt="header img" className="rounded-xl" />
-      <img src={url4} alt="header img" className="rounded-xl" />
+      <img
+        src={url}
+        alt="entertainment logo"
+        className="xl:ml-[-300px] rounded-xl"
+      />
+      <img src={url2} alt="hospitality logo" className="rounded-xl" />
+      <img src={url3} alt="humblebaron logo" className="rounded-xl" />
+      <img src={url4} alt="realestate logo" className="rounded-xl" />
 
       {/* <img src={images.hospitality} alt="header img" />
       <img src={images.production} alt="header img" />

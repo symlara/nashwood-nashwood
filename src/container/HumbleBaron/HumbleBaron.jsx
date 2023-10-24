@@ -1,36 +1,42 @@
 import React from "react";
 
-import "../AboutUs/AboutUs.css";
-
-const entertainment =
-  "https://user-images.githubusercontent.com/40181569/277799722-e94ea8a9-f693-4942-9c61-1bb038a441c3.jpg";
+const humblebaron =
+  "https://user-images.githubusercontent.com/40181569/277802030-f1466ded-fa99-4393-909f-6d2f32f60a0c.jpg";
 const image = new Image();
-image.src = entertainment;
+image.src = humblebaron;
 
 const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
-corsImage.src = entertainment + "?not=from-cache-please";
+corsImage.src = humblebaron + "?not=from-cache-please";
 
-const Entertainment = () => (
+import "../AboutUs/AboutUs.css";
+
+const HumbleBaron = () => (
   <div
     className="app__aboutus app__bg flex__center section__padding"
-    id="entertainment"
+    id="humble-baron"
   >
     {/* <div className="app__aboutus-overlay flex__center">
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Entertainment</h1>
+        <h1 className="headtext__cormorant">Humble Baron</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
           className="p__raleway flex-wrap"
           style={{ margin: "2rem 0", marginLeft: "-30px" }}
         >
-          With leadership representing more than 60 years combined in key roles
-          in the entertainment industry, Nashwood, Inc. is uniquely positioned
-          to develop recording artists, audiovisual content, as well as serve as
-          a production partner for entertainment and corporate events.
+          Humble Baron is Middle Tennessee’s newest restaurant, bar and
+          entertainment venue, located on the property of the iconic Nearest
+          Green Distillery in Shelbyville, Tennessee. Home to the World’s
+          Longest Bar at 518-feet-long, Humble Baron is brought to life by
+          co-founder of Uncle Nearest Premium Whiskey, Keith Weaver. A
+          destination for locals and visitors alike, the venue offers elevated
+          Southern fare alongside craft whiskey cocktails and will showcase live
+          music several nights a week. Humble Baron is a gathering place where
+          everyone has a seat at the table, bringing people together over
+          premium spirits, exceptional food and lively music.
         </p>
         {/* <button type="button" className="custom__button">
           Know More
@@ -47,8 +53,8 @@ const Entertainment = () => (
           className="w-[50%] h-[50%] rounded-xl xl:ml-[150px]"
         /> */}
         <img
-          src={entertainment}
-          alt="entertainment logo"
+          src={humblebaron}
+          alt="humblebaron logo"
           className="w-[50%] h-[50%] rounded-xl xl:ml-[70px]"
         />
 
@@ -65,4 +71,4 @@ const Entertainment = () => (
   </div>
 );
 
-export default Entertainment;
+export default HumbleBaron;

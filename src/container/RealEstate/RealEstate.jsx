@@ -1,36 +1,36 @@
 import React from "react";
 
-import "../AboutUs/AboutUs.css";
-
-const entertainment =
-  "https://user-images.githubusercontent.com/40181569/277799722-e94ea8a9-f693-4942-9c61-1bb038a441c3.jpg";
+const realestate =
+  "https://user-images.githubusercontent.com/40181569/277804148-36c016ba-2b7c-4219-bedf-ca9025c353b0.jpg";
 const image = new Image();
-image.src = entertainment;
+image.src = realestate;
 
 const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
-corsImage.src = entertainment + "?not=from-cache-please";
+corsImage.src = realestate + "?not=from-cache-please";
 
-const Entertainment = () => (
+import "../AboutUs/AboutUs.css";
+
+const RealEstate = () => (
   <div
     className="app__aboutus app__bg flex__center section__padding"
-    id="entertainment"
+    id="real-estate"
   >
     {/* <div className="app__aboutus-overlay flex__center">
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Entertainment</h1>
+        <h1 className="headtext__cormorant">Real Estate</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
           className="p__raleway flex-wrap"
           style={{ margin: "2rem 0", marginLeft: "-30px" }}
         >
-          With leadership representing more than 60 years combined in key roles
-          in the entertainment industry, Nashwood, Inc. is uniquely positioned
-          to develop recording artists, audiovisual content, as well as serve as
-          a production partner for entertainment and corporate events.
+          Nashwood owns a range of commercial and residential property interests
+          to include: The Shelbyville-Times Gazette Building, U.S. Bank
+          Building, The Tolley House, Cedar Ridge Farm, as well as luxury
+          residential real estate interests throughout the country.
         </p>
         {/* <button type="button" className="custom__button">
           Know More
@@ -47,8 +47,8 @@ const Entertainment = () => (
           className="w-[50%] h-[50%] rounded-xl xl:ml-[150px]"
         /> */}
         <img
-          src={entertainment}
-          alt="entertainment logo"
+          src={realestate}
+          alt="realestate logo"
           className="w-[50%] h-[50%] rounded-xl xl:ml-[70px]"
         />
 
@@ -65,4 +65,4 @@ const Entertainment = () => (
   </div>
 );
 
-export default Entertainment;
+export default RealEstate;
