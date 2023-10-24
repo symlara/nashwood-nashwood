@@ -14,12 +14,12 @@ image2.src = url2;
 const url3 =
   "https://user-images.githubusercontent.com/40181569/277802030-f1466ded-fa99-4393-909f-6d2f32f60a0c.jpg";
 const image3 = new Image();
-image2.src = url3;
+image3.src = url3;
 
 const url4 =
   "https://user-images.githubusercontent.com/40181569/277804148-36c016ba-2b7c-4219-bedf-ca9025c353b0.jpg";
 const image4 = new Image();
-image2.src = url4;
+image4.src = url4;
 
 const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
