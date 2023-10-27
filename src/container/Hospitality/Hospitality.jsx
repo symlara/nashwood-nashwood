@@ -10,6 +10,8 @@ corsImage.crossOrigin = "Anonymous";
 corsImage.src = hospitality + "?not=from-cache-please";
 
 import "../AboutUs/AboutUs.css";
+import HumbleBaron from "../HumbleBaron/HumbleBaron";
+import TolleyHouse from "../TolleyHouse/TolleyHouse";
 
 const Hospitality = () => (
   <div
@@ -21,7 +23,9 @@ const Hospitality = () => (
     </div> */}
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Hospitality</h1>
+        <h1 className="headtext__cormorant xl:ml-[400px] underline">
+          Hospitality
+        </h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
           className="p__raleway flex-wrap 2xl:text-lg"
@@ -35,9 +39,9 @@ const Hospitality = () => (
           ipsum consequat minim adipisicing. Esse ullamco aute velit aliquip in
           in voluptate minim in mollit.
         </p>
-        {/* <button type="button" className="custom__button">
-          Know More
-        </button> */}
+
+        <HumbleBaron />
+        <TolleyHouse />
       </div>
       <div className="app__aboutus-content_knife flex__center">
         {/* <img src={images.knife} alt="about_knife" /> */}
@@ -52,7 +56,7 @@ const Hospitality = () => (
         <img
           src={hospitality}
           alt="hospitality logo"
-          className="w-[50%] h-[50%] rounded-xl xl:ml-[70px]"
+          className="w-[75%] h-[75%] rounded-xl xl:ml-[-100px] xl:mt-[-300px]"
         />
 
         {/* <p className="p__raleway">

@@ -21,7 +21,7 @@ const Entertainment = () => (
     </div> */}
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Entertainment</h1>
+        <h1 className="headtext__cormorant underline">Entertainment</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
           className="p__raleway flex-wrap 2xl:text-lg"

@@ -46,7 +46,7 @@ const Gallery = () => {
 
   return (
     <div className="app__gallery flex__center">
-      <div className="app__gallery-content">
+      {/* <div className="app__gallery-content">
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p
           className="p__opensans"
@@ -54,11 +54,11 @@ const Gallery = () => {
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
-        </p>
-        {/* <button type="button" className="custom__button">
+        </p> */}
+      {/* <button type="button" className="custom__button">
           View More
         </button> */}
-      </div>
+      {/* </div> */}
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {[url, url2, url3, url4].map((image, index) => (

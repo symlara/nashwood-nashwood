@@ -92,7 +92,6 @@
   color: var(--color-white);
   font-weight: 200;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   line-height: 28px;
   font-size: 16px;
 }
@@ -104,6 +103,14 @@
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
+}
+
+.humble-baron {
+  font-family: var(--font-base);
+}
+
+.tolley-house {
+  font-family: var(--font-base);
 }
 
 .spoon__img {
@@ -174,6 +181,36 @@
 
   .p__opensans {
     font-size: 14px;
+  }
+
+  .humble-baron {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .tolley-house {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .longest-bar {
+    display: flex !important;
+    flex: 1 !important;
+    width: 100% !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    margin-left: 40px;
+  }
+
+  .tolley-house-p {
+    display: flex !important;
+    flex: 1 !important;
+    width: 100% !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    margin-left: 40px;
   }
 }
 

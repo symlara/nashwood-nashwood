@@ -45,20 +45,17 @@ const Header = () => (
       </button> */}
     </div>
 
+    {/* create way to link off these images */}
+
     <div className="app__wrapper_img gap-2 xl:ml-[490px]">
-      {/* <img src={images.welcome} alt="header img" /> */}
       <img
         src={url}
         alt="entertainment logo"
-        className="xl:ml-[-300px] 2xl:ml-[-380px] rounded-xl entertainment-logo"
+        className="xl:ml-[-300px] 2xl:ml-[-380px] rounded-xl entertainment-logo cursor-pointer"
       />
       <img src={url2} alt="hospitality logo" className="rounded-xl" />
-      <img src={url3} alt="humblebaron logo" className="rounded-xl" />
+      {/* <img src={url3} alt="humblebaron logo" className="rounded-xl" /> */}
       <img src={url4} alt="realestate logo" className="rounded-xl" />
-
-      {/* <img src={images.hospitality} alt="header img" />
-      <img src={images.production} alt="header img" />
-      <img src={images.realestate} alt="header img" /> */}
     </div>
   </div>
 );

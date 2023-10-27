@@ -26,12 +26,12 @@ const Navbar = () => {
         <li className="p__raleway">
           <a href="#hospitality">Hospitality </a>
         </li>
-        <li className="p__raleway">
+        {/* <li className="p__raleway">
           <a href="#humble-baron">Humble Baron</a>
         </li>
         <li className="p__raleway">
           <a href="#tolley-house">The Tolley House</a>
-        </li>
+        </li> */}
         <li className="p__raleway">
           <a href="#real-estate" id="#real-estate">
             Real Estate
