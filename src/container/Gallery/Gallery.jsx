@@ -6,12 +6,12 @@ import {
 } from "react-icons/bs";
 
 const url =
-  "https://user-images.githubusercontent.com/40181569/277797876-79277a2e-123d-4588-9478-ab7b5bc90e39.jpeg";
+  "https://user-images.githubusercontent.com/40181569/278895986-21047f96-3340-441b-a3ec-889c159f9206.JPG";
 const image = new Image();
 image.src = url;
 
 const url2 =
-  "https://user-images.githubusercontent.com/40181569/277817039-8781bf2e-3d04-4b03-89e1-38d9469d4daa.jpg";
+  "https://user-images.githubusercontent.com/40181569/278894550-594e6fa3-4394-46b6-8ad6-e6abec9df039.jpg";
 const image2 = new Image();
 image2.src = url2;
 

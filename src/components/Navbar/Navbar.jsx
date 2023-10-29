@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 // import images from "../../constants/images";
 import nashwoodwatermark from "../../assets/nashwood-nw-wordmark-logo-white-rgb-640px-w-72ppi.png";
@@ -17,14 +18,14 @@ const Navbar = () => {
         </a>
       </div>
       <ul className="app__navbar-links">
-        {/* <li className="p__opensans">
-          <a href="#home">Home</a>
-        </li> */}
         <li className="p__raleway">
-          <a href="#entertainment">Entertainment</a>
+          <Link to="/about-us">About Us</Link>
         </li>
         <li className="p__raleway">
-          <a href="#hospitality">Hospitality </a>
+          <Link to="/entertainment">Entertainment</Link>
+        </li>
+        <li className="p__raleway">
+          <Link to="/hospitality">Hospitality</Link>
         </li>
         {/* <li className="p__raleway">
           <a href="#humble-baron">Humble Baron</a>
@@ -33,9 +34,7 @@ const Navbar = () => {
           <a href="#tolley-house">The Tolley House</a>
         </li> */}
         <li className="p__raleway">
-          <a href="#real-estate" id="#real-estate">
-            Real Estate
-          </a>
+          <Link to="/real-estate">RealEstate</Link>
         </li>
         <li className="p__raleway">
           <a href="#contact-us" id="#contact-us">
@@ -69,6 +68,9 @@ const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-smallscreen_links">
+              <li className="p__raleway">
+                <Link to="/about-us">About Us</Link>
+              </li>
               <li className="p__opensans">
                 <a href="#entertainment">Entertainment</a>
               </li>

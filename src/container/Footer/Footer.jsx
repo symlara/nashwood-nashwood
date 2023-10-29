@@ -8,7 +8,7 @@ import FooterOverlay from "../../components/FooterOverlay/FooterOverlay";
 import "./Footer.css";
 
 const Footer = () => (
-  <div className="app__footer section__padding">
+  <div className="app__footer section__padding" id="contact-us">
     <FooterOverlay />
 
     <div className="app__footer-links">
@@ -26,8 +26,8 @@ const Footer = () => (
         </p> */}
       </div>
       <div className="app__footer-links_icons mt-5">
-        <FiFacebook />
-        <FiTwitter />
+        {/* <FiFacebook />
+        <FiTwitter /> */}
         <FiInstagram />
       </div>
       {/* <div className="app__footer-links_work">
