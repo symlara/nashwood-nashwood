@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {
   Gallery,
   Header,
@@ -12,6 +12,7 @@ import {
 } from "./container";
 import Navbar from "./components/Navbar/Navbar";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import Home from "./pages/Home";
 
 // import Navbar from "./components/Navbar/Navbar";
 // import Header from "./container/Header/Header";
@@ -28,18 +29,22 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
-
       <Router>
-        <Navbar />
-        <Gallery />
+        {/* <Navbar /> */}
+        {/* <Home /> */}
+        <div className="z-[30] w-full">
+          <Navbar />
+        </div>
+
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/entertainment" element={<Entertainment />} />
           <Route path="/hospitality" element={<Hospitality />} />
           <Route path="/real-estate" element={<RealEstate />} />
         </Routes>
       </Router>
+      {/* <Gallery /> */}
 
       <Footer />
     </div>

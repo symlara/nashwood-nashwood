@@ -49,8 +49,8 @@
   margin-right: 2rem;
 }
 
-.app__wrapper_img img {
-  width: 80%;
+.app__wrapper_img {
+  width: 50%;
 }
 
 .glenford {
@@ -217,6 +217,7 @@
 @media screen and (max-width: 450px) {
   .p__opensans {
     font-size: 12px;
+    font-family: var(--font-base);
   }
 
   .p__cormorant {
@@ -232,6 +233,13 @@
     flex-direction: column;
     width: 50%;
     margin-top: 10px;
+  }
+
+  .header-imgs {
+    display: flex;
+    flex-direction: column !important;
+    width: 30%;
+    gap: 2px;
   }
 
   .glenford {

@@ -36,11 +36,11 @@ const Navbar = () => {
         <li className="p__raleway">
           <Link to="/real-estate">RealEstate</Link>
         </li>
-        <li className="p__raleway">
+        {/* <li className="p__raleway">
           <a href="#contact-us" id="#contact-us">
             Contact Us
           </a>
-        </li>
+        </li> */}
       </ul>
       <div className="app__navbar-login">
         {/* <a href="#login" className="p__raleway">
@@ -68,31 +68,24 @@ const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-smallscreen_links">
-              <li className="p__raleway">
+              <li className="p__opensans">
                 <Link to="/about-us">About Us</Link>
               </li>
               <li className="p__opensans">
-                <a href="#entertainment">Entertainment</a>
+                <Link to="/entertainment">Entertainment</Link>
               </li>
               <li className="p__opensans">
-                <a href="#hospitality">Hospitality </a>
+                <Link to="/hospitality">Hospitality </Link>
               </li>
+
               <li className="p__opensans">
-                <a href="#humble-baron">Humble Baron</a>
+                <Link to="/real-estate">Real Estate</Link>
               </li>
-              <li className="p__opensans">
-                <a href="#tolley-house">The Tolley House</a>
-              </li>
-              <li className="p__opensans">
-                <a href="#real-estate" id="#real-estate">
-                  Real Estate
-                </a>{" "}
-              </li>
-              <li className="p__raleway">
-                <a href="#contact-us" id="#contact-us">
+              {/* <li className="p__opensans">
+                <a href="#contact-us" id="contact-us">
                   Contact Us
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         )}

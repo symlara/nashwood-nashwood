@@ -1,5 +1,6 @@
 import React from "react";
 import SubHeading from "../../components/SubHeading";
+import { motion } from "framer-motion";
 
 const url =
   "https://user-images.githubusercontent.com/40181569/277799722-e94ea8a9-f693-4942-9c61-1bb038a441c3.jpg";
@@ -47,15 +48,60 @@ const Header = () => (
 
     {/* create way to link off these images */}
 
-    <div className="app__wrapper_img gap-2 xl:ml-[490px]">
+    {/* <div className="app__wrapper_img gap-2 xl:ml-[490px]">
       <img
         src={url}
         alt="entertainment logo"
-        className="xl:ml-[-300px] 2xl:ml-[-380px] rounded-xl entertainment-logo cursor-pointer"
+        className="xl:ml-[-150px] 2xl:ml-[-380px] rounded-xl entertainment-logo cursor-pointer"
       />
-      <img src={url2} alt="hospitality logo" className="rounded-xl" />
-      {/* <img src={url3} alt="humblebaron logo" className="rounded-xl" /> */}
-      <img src={url4} alt="realestate logo" className="rounded-xl" />
+
+      <img src={url2} alt="hospitality logo" className="rounded-xl " /> */}
+
+    {/* <img src={url3} alt="humblebaron logo" className="rounded-xl" /> */}
+
+    {/* <img src={url4} alt="realestate logo" className="rounded-xl" />
+    </div> */}
+    <div className="flex w-[30%] justify-center items-center header-imgs">
+      {/* <a href="/">
+        <img className="cursor-pointer rounded-xl xl:w-[80%]" src={url} />
+      </a> */}
+      <a href="/entertainment">
+        <motion.img
+          animate={{ y: 10 }}
+          transition={{ type: "smooth" }}
+          src={url}
+          whileHover={{ scale: 2.0 }}
+          whileTap={{ scale: 0.9 }}
+          className="cursor-pointer rounded-xl xl:w-[80%] header-img"
+        />
+      </a>
+      <a href="/hospitality">
+        <motion.img
+          animate={{ y: 10 }}
+          transition={{ type: "smooth" }}
+          src={url2}
+          whileHover={{ scale: 2.0 }}
+          whileTap={{ scale: 0.9 }}
+          className="cursor-pointer rounded-xl xl:w-[80%]"
+        />
+      </a>
+      <a href="/real-estate">
+        <motion.img
+          animate={{ y: 10 }}
+          transition={{ type: "smooth" }}
+          src={url4}
+          whileHover={{ scale: 2.0 }}
+          whileTap={{ scale: 0.9 }}
+          className="cursor-pointer rounded-xl xl:w-[80%]"
+        />
+      </a>
+
+      {/* <a href="/hospitality">
+        <img className="cursor-pointer rounded-xl xl:w-[80%]" src={url2} />
+      </a>
+      <a href="">
+        <img className="cursor-pointer rounded-xl xl:w-[80%]" src={url4} />
+      </a> */}
     </div>
   </div>
 );
