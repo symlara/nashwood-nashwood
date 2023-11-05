@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../Header/Header";
 
 import "../AboutUs/AboutUs.css";
 
@@ -20,8 +21,9 @@ const Entertainment = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about">
+      <div className="app__aboutus-content_about 2xl:mt-[-950px] xl:mt-[-500px]">
         <h1 className="headtext__cormorant">Entertainment</h1>
+
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
           className="p__raleway flex-wrap 2xl:text-lg"
@@ -32,6 +34,7 @@ const Entertainment = () => (
           to develop recording artists, audiovisual content, as well as serve as
           a production partner for entertainment and corporate events.
         </p>
+
         {/* <button type="button" className="custom__button">
           Know More
         </button> */}
@@ -40,6 +43,7 @@ const Entertainment = () => (
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
       <div className="app__aboutus-content_history">
+        <Header />
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         {/* <img

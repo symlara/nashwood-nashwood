@@ -41,18 +41,18 @@ import Gallery from "../Gallery/Gallery";
 const Hospitality = () => (
   <>
     <div
-      className="app__aboutus w-full app__bg flex__center section__padding 2xl:mt-[-30px]"
+      className="app__aboutus w-full app__bg flex__center section__padding "
       id="hospitality"
     >
       {/* <div className="app__aboutus-overlay flex__center">
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
       <div className="app__aboutus-content flex__center">
-        <div className="app__aboutus-content_about">
-          <h1 className="headtext__cormorant xl:ml-[400px]">Hospitality</h1>
+        <div className="app__aboutus-content_about 2xl:mt-[-250px]">
+          <h1 className="headtext__cormorant ">Hospitality</h1>
           {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
           <p
-            className="p__raleway flex-wrap 2xl:text-lg hospitality"
+            className="p__raleway flex-wrap 2xl:text-lg "
             style={{ margin: "2rem 0", marginLeft: "-30px" }}
           >
             Esse incididunt exercitation fugiat ullamco sunt aute ut tempor enim

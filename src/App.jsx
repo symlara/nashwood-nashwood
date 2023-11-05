@@ -28,28 +28,9 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
-      {/* <Navbar /> */}
+    <div className="bg-[#1a3a61]">
+      <Navbar />
       {/* <Home /> */}
-      <div className="z-[30] w-full bg-[#1a3a61]">
-        <Navbar />
-        <div className="app__wrapper_info 2xl:ml-[50px] 2xl:mt-[200px] whitespace-normal">
-          <p
-            className="p__raleway 2xl:text-lg whitespace-normal bg-[#1a3a61]"
-            style={{ margin: "2rem 0" }}
-          >
-            Nashwood, Inc. is a real estate, hospitality, and entertainment
-            company headquartered in Bedford County Tennessee. Nashwood’s span
-            of work includes ownership and operation of a diverse real estate
-            portfolio, management of enterprises in the food and beverage
-            sector, and a wide range of entertainment interests – ranging from
-            content production, artist development, and physical production
-            services.
-          </p>
-        </div>
-
-        <Header />
-      </div>
 
       <Routes>
         <Route path="/" element={<Home />} />

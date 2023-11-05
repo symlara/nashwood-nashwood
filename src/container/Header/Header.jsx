@@ -65,7 +65,7 @@ const Header = () => (
 
     {/* <img src={url4} alt="realestate logo" className="rounded-xl" />
     </div> */}
-    <div className="flex w-[30%] justify-center items-center header-imgs 2xl:gap-2 2xl:mt-[-700px]">
+    <div className="flex w-[30%] xl:w-[100%] justify-center items-center header-imgs 2xl:mt-[-900px] 2xl:w-[100%]">
       {/* <a href="/">
         <img className="cursor-pointer rounded-xl xl:w-[80%]" src={url} />
       </a> */}
@@ -76,7 +76,7 @@ const Header = () => (
           src={url}
           whileHover={{ scale: 2.0 }}
           whileTap={{ scale: 0.9 }}
-          className="cursor-pointer rounded-xl xl:w-[80%] 2xl:w-[100%] justify-center "
+          className="cursor-pointer rounded-xl 2xl:w-[80%] justify-center xl:w-[100%] xl:mt-[-300px] xl:ml-[-50px]"
         />
       </Link>
       <Link to="/hospitality">
@@ -86,7 +86,7 @@ const Header = () => (
           src={url2}
           whileHover={{ scale: 2.0 }}
           whileTap={{ scale: 0.9 }}
-          className="cursor-pointer rounded-xl xl:w-[80%] 2xl:w-[100%]"
+          className="cursor-pointer rounded-xl xl:w-[100%] 2xl:w-[80%] xl:mt-[-300px] xl:ml-[-40px]"
         />
       </Link>
       <Link to="/real-estate">
@@ -96,7 +96,7 @@ const Header = () => (
           src={url4}
           whileHover={{ scale: 2.0 }}
           whileTap={{ scale: 0.9 }}
-          className="cursor-pointer rounded-xl xl:w-[80%] 2xl:w-[100%]"
+          className="cursor-pointer rounded-xl xl:w-[100%] 2xl:w-[80%] xl:mt-[-300px] xl:ml-[-30px]"
         />
       </Link>
     </div>

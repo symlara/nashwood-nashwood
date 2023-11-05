@@ -8,7 +8,7 @@ import FooterOverlay from "../../components/FooterOverlay/FooterOverlay";
 import "./Footer.css";
 
 const Footer = () => (
-  <div className="app__footer section__padding" id="contact-us">
+  <div className="app__footer section__padding xl:mt-[400px]" id="contact-us">
     <FooterOverlay />
 
     <div className="app__footer-links">

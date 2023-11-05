@@ -9,6 +9,7 @@ const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
 corsImage.src = realestate + "?not=from-cache-please";
 
+import Header from "../Header/Header";
 import "../AboutUs/AboutUs.css";
 
 const RealEstate = () => (
@@ -20,7 +21,7 @@ const RealEstate = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about">
+      <div className="app__aboutus-content_about 2xl:mt-[-950px] xl:mt-[-500px]">
         <h1 className="headtext__cormorant">Real Estate</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
@@ -40,6 +41,7 @@ const RealEstate = () => (
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
       <div className="app__aboutus-content_history">
+        <Header />
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         {/* <img

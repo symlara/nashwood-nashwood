@@ -21,6 +21,7 @@
 .app__aboutus-content {
   width: 100%;
   z-index: 2;
+  margin-top: -200px;
 }
 
 .app__aboutus-content_about {
