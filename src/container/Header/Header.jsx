@@ -1,6 +1,7 @@
 import React from "react";
 import SubHeading from "../../components/SubHeading";
 import { motion } from "framer-motion";
+import { Link, BrowserRouter } from "react-router-dom";
 
 const url =
   "https://user-images.githubusercontent.com/40181569/277799722-e94ea8a9-f693-4942-9c61-1bb038a441c3.jpg";
@@ -31,9 +32,9 @@ import "./Header.css";
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info 2xl:ml-[-50px] 2xl:mt-[-400px] whitespace-normal">
-      <SubHeading title="Nashwood, Inc." />
+      {/* <SubHeading title="Nashwood, Inc." /> */}
       {/* <h1 className="app__header-h1">The Key to Fine Dining</h1> */}
-      <p
+      {/* <p
         className="p__raleway 2xl:text-lg whitespace-normal"
         style={{ margin: "2rem 0" }}
       >
@@ -43,7 +44,7 @@ const Header = () => (
         management of enterprises in the food and beverage sector, and a wide
         range of entertainment interests – ranging from content production,
         artist development, and physical production services.
-      </p>
+      </p> */}
       {/* <button type="button" className="custom__button">
         Explore Menu
       </button> */}
@@ -64,21 +65,21 @@ const Header = () => (
 
     {/* <img src={url4} alt="realestate logo" className="rounded-xl" />
     </div> */}
-    <div className="flex w-[30%] justify-center items-center header-imgs 2xl:gap-2">
+    <div className="flex w-[30%] justify-center items-center header-imgs 2xl:gap-2 2xl:mt-[-700px]">
       {/* <a href="/">
         <img className="cursor-pointer rounded-xl xl:w-[80%]" src={url} />
       </a> */}
-      <a href="/entertainment">
+      <Link to="/entertainment">
         <motion.img
           animate={{ y: 10 }}
           transition={{ type: "smooth" }}
           src={url}
           whileHover={{ scale: 2.0 }}
           whileTap={{ scale: 0.9 }}
-          className="cursor-pointer rounded-xl xl:w-[80%] 2xl:w-[100%]"
+          className="cursor-pointer rounded-xl xl:w-[80%] 2xl:w-[100%] justify-center "
         />
-      </a>
-      <a href="/hospitality">
+      </Link>
+      <Link to="/hospitality">
         <motion.img
           animate={{ y: 10 }}
           transition={{ type: "smooth" }}
@@ -87,8 +88,8 @@ const Header = () => (
           whileTap={{ scale: 0.9 }}
           className="cursor-pointer rounded-xl xl:w-[80%] 2xl:w-[100%]"
         />
-      </a>
-      <a href="/real-estate">
+      </Link>
+      <Link to="/real-estate">
         <motion.img
           animate={{ y: 10 }}
           transition={{ type: "smooth" }}
@@ -97,7 +98,7 @@ const Header = () => (
           whileTap={{ scale: 0.9 }}
           className="cursor-pointer rounded-xl xl:w-[80%] 2xl:w-[100%]"
         />
-      </a>
+      </Link>
     </div>
   </div>
 );

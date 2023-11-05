@@ -17,6 +17,7 @@ corsImage.crossOrigin = "Anonymous";
 corsImage.src = url + "?not=from-cache-please";
 
 import "../AboutUs/AboutUs.css";
+import LazyLoad from "react-lazy-load";
 
 const AboutUs = () => (
   <div
@@ -49,11 +50,13 @@ const AboutUs = () => (
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
       <div className="app__aboutus-content_history">
-        <img
-          alt="keithweaver"
-          src={url2}
-          className="w-[50%] h-[50%] rounded-xl xl:ml-[70px] keith"
-        />
+        <LazyLoad height="100%">
+          <img
+            alt="keithweaver"
+            src={url2}
+            className="w-[50%] h-[50%] rounded-xl xl:ml-[70px] keith"
+          />
+        </LazyLoad>
       </div>
     </div>
   </div>

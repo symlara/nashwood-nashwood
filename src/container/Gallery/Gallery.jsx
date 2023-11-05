@@ -30,6 +30,7 @@ corsImage.crossOrigin = "Anonymous";
 corsImage.src = url + "?not=from-cache-please";
 
 import "./Gallery.css";
+import LazyLoad from "react-lazy-load";
 
 const Gallery = () => {
   const scrollRef = React.useRef(null);
@@ -67,7 +68,9 @@ const Gallery = () => {
                 className="app__gallery-images_card flex__center"
                 key={`gallery_image-${index + 1}`}
               >
-                <img src={image} alt="gallery_image" />
+                <LazyLoad height="100%">
+                  <img src={image} alt="gallery_image" />
+                </LazyLoad>
                 {/* <BsInstagram className="gallery__image-icon" /> */}
               </div>
             ))}
