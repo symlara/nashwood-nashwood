@@ -33,10 +33,10 @@ corsImage.crossOrigin = "Anonymous";
 corsImage.src = url + "?not=from-cache-please";
 
 import "../AboutUs/AboutUs.css";
+import Gallery2 from "../Gallery2/Gallery2";
 
 import HumbleBaron from "../HumbleBaron/HumbleBaron";
 import TolleyHouse from "../TolleyHouse/TolleyHouse";
-import Gallery from "../Gallery/Gallery";
 
 const Hospitality = () => (
   <>
@@ -91,7 +91,7 @@ const Hospitality = () => (
       <div className="hospitality-imgs"></div>
     </div>
     <div>
-      <Gallery />
+      <Gallery2 />
     </div>
   </>
 );

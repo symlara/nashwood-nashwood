@@ -2,14 +2,15 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import SubHeading from "../components/SubHeading";
 
-import { Gallery, Header } from "../container";
+import Gallery2 from "../container/Gallery2/Gallery2";
 
 const Home = () => {
   return (
     <div>
       <div className="z-[30] w-full">
         {/* <Navbar /> */}
-        <Gallery />
+
+        <Gallery2 />
         <div className="app__wrapper_info 2xl:ml-[50px] whitespace-normal 2xl:mt-[150px] xl:ml-[20px] xl:mt-[100px]">
           <SubHeading title="Nashwood, Inc." />
           <p

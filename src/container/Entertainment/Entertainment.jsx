@@ -4,13 +4,9 @@ import Header from "../Header/Header";
 import "../AboutUs/AboutUs.css";
 
 const entertainment =
-  "https://user-images.githubusercontent.com/40181569/277799722-e94ea8a9-f693-4942-9c61-1bb038a441c3.jpg";
+  "https://user-images.githubusercontent.com/40181569/280852826-8d617545-ea11-46a8-8afe-44f5315b2b15.JPG";
 const image = new Image();
 image.src = entertainment;
-
-const corsImage = new Image();
-corsImage.crossOrigin = "Anonymous";
-corsImage.src = entertainment + "?not=from-cache-please";
 
 const Entertainment = () => (
   <div
@@ -43,7 +39,9 @@ const Entertainment = () => (
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
       <div className="app__aboutus-content_history">
-        <Header />
+        <img src={entertainment} alt="singer" />
+        {/* <Header /> */}
+
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         {/* <img

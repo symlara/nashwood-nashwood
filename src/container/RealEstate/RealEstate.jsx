@@ -1,13 +1,18 @@
 import React from "react";
 
-const realestate =
-  "https://user-images.githubusercontent.com/40181569/277804148-36c016ba-2b7c-4219-bedf-ca9025c353b0.jpg";
+const url =
+  "https://user-images.githubusercontent.com/40181569/280851025-5d381001-2bce-4f95-bdb6-ab75dde7dbcf.jpg";
 const image = new Image();
-image.src = realestate;
+image.src = url;
+
+const url2 =
+  "https://user-images.githubusercontent.com/40181569/280851835-8014fae7-b5e4-4fca-a47a-71d74b387422.jpg";
+const image2 = new Image();
+image.src = url2;
 
 const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
-corsImage.src = realestate + "?not=from-cache-please";
+corsImage.src = url + "?not=from-cache-please";
 
 import Header from "../Header/Header";
 import "../AboutUs/AboutUs.css";
@@ -41,7 +46,9 @@ const RealEstate = () => (
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
       <div className="app__aboutus-content_history">
-        <Header />
+        {/* <Header /> */}
+        <img src={url} alt="humble-baron-logo" className="2xl:mt-[-100px]" />
+        <img src={url2} alt="humble-baron-logo" className="pt-10" />
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         {/* <img

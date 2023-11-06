@@ -17,10 +17,8 @@ const HumbleBaron = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="">
-      <div className="">
-        <h3 className="humble-baron text-white text-4xl xl:ml-[400px]">
-          Humble Baron
-        </h3>
+      <div className="app__aboutus-content_about">
+        <h1 className="headtext__cormorant">Humble Baron</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <div className="longest-bar">
           <p
