@@ -11,10 +11,12 @@ const Home = () => {
         {/* <Navbar /> */}
 
         <Gallery2 />
-        <div className="app__wrapper_info 2xl:ml-[50px] whitespace-normal 2xl:mt-[150px] xl:ml-[20px] xl:mt-[100px]">
-          <SubHeading title="Nashwood, Inc." />
+        <div className="app__wrapper_info 2xl:ml-[100px] whitespace-normal 2xl:mt-[150px] xl:ml-[20px] xl:mt-[100px]">
+          <div className="subtitle">
+            <SubHeading title="Nashwood, Inc." />
+          </div>
           <p
-            className="p__raleway 2xl:text-lg whitespace-normal"
+            className="p__raleway 2xl:text-lg whitespace-normal nashwood-inc"
             style={{ margin: "2rem 0" }}
           >
             Nashwood, Inc. is a real estate, hospitality, and entertainment

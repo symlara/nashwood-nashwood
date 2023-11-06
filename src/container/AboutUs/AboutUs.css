@@ -83,6 +83,14 @@
 }
 
 @media screen and (max-width: 650px) {
+  .app__aboutus-content_about {
+    margin-top: -100px;
+  }
+
+  .hb {
+    margin-top: 100px;
+  }
+
   .app__aboutus-content_history img {
     width: 80%;
     margin-top: -100px;

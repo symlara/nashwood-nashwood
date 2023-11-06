@@ -41,28 +41,30 @@ import TolleyHouse from "../TolleyHouse/TolleyHouse";
 const Hospitality = () => (
   <>
     <div
-      className="app__aboutus w-full app__bg flex__center section__padding "
+      className="app__aboutus w-full app__bg flex__center section__padding"
       id="hospitality"
     >
       {/* <div className="app__aboutus-overlay flex__center">
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
       <div className="app__aboutus-content flex__center">
-        <div className="app__aboutus-content_about 2xl:mt-[-250px]">
+        <div className="app__aboutus-content_about 2xl:mt-[-150px]">
           <h1 className="headtext__cormorant ">Hospitality</h1>
-          {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-          <p
-            className="p__raleway flex-wrap 2xl:text-lg "
-            style={{ margin: "2rem 0", marginLeft: "-30px" }}
-          >
-            Esse incididunt exercitation fugiat ullamco sunt aute ut tempor enim
-            aliquip enim id. Reprehenderit voluptate cillum consequat ex ut ex
-            quis consectetur excepteur tempor deserunt labore. Ut quis dolor
-            occaecat deserunt pariatur cupidatat sunt exercitation pariatur
-            commodo. Ut excepteur excepteur Lorem enim anim aliqua ex nostrud et
-            ipsum consequat minim adipisicing. Esse ullamco aute velit aliquip
-            in in voluptate minim in mollit.
-          </p>
+          <div className="hospitality">
+            {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
+            <p
+              className="p__raleway flex-wrap 2xl:text-lg "
+              style={{ margin: "2rem 0", marginLeft: "-30px" }}
+            >
+              Esse incididunt exercitation fugiat ullamco sunt aute ut tempor
+              enim aliquip enim id. Reprehenderit voluptate cillum consequat ex
+              ut ex quis consectetur excepteur tempor deserunt labore. Ut quis
+              dolor occaecat deserunt pariatur cupidatat sunt exercitation
+              pariatur commodo. Ut excepteur excepteur Lorem enim anim aliqua ex
+              nostrud et ipsum consequat minim adipisicing. Esse ullamco aute
+              velit aliquip in in voluptate minim in mollit.
+            </p>
+          </div>
 
           <HumbleBaron />
 
@@ -90,9 +92,7 @@ const Hospitality = () => (
 
       <div className="hospitality-imgs"></div>
     </div>
-    <div>
-      <Gallery2 />
-    </div>
+    <div>{/* <Gallery2 /> */}</div>
   </>
 );
 

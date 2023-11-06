@@ -103,6 +103,10 @@
     margin-left: 210px;
   }
 
+  .app__footer-links_contact p {
+    margin-left: 200px;
+  }
+
   .app__footer-links_logo {
     display: none;
   }

@@ -13,7 +13,11 @@ const Footer = () => (
 
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
+        {/* Will link off to a CRM tool */}
         <h1 className="app__footer-headtext">Contact Us</h1>
+        <p className="p__raleway">
+          323 Depot St., Shelbyville, Tennessee 37160
+        </p>
         {/* <p className="p__raleway">9 W 53rd St, New York, NY 10019, USA</p>
         <p className="p__raleway">+1 212-344-1230</p>
         <p className="p__raleway">+1 212-555-1230</p> */}

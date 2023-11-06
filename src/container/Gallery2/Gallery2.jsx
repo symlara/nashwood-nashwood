@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import LazyLoad from "react-lazy-load";
 
 // humble baron stage performance
 const url =
@@ -46,22 +47,34 @@ const Gallery2 = () => {
       className="2xl:w-[1360px] 2xl:h-[880px] justify-center items-center 2xl:ml-[200px]"
     >
       <div>
-        <img src={url} alt="humble-baron" className="" />
+        <LazyLoad height="100%">
+          <img src={url} alt="humble-baron" className="" />
+        </LazyLoad>
       </div>
       <div>
-        <img src={url2} alt="mixologists" />
+        <LazyLoad height="100%">
+          <img src={url2} alt="mixologists" />
+        </LazyLoad>
       </div>
       <div>
-        <img src={url3} alt="mixologists" />
+        <LazyLoad height="100%">
+          <img src={url3} alt="mixologists" />
+        </LazyLoad>
       </div>
       <div>
-        <img src={url4} alt="mixologists" />
+        <LazyLoad height="100%">
+          <img src={url4} alt="mixologists" />
+        </LazyLoad>
       </div>
       <div>
-        <img src={url5} alt="mixologists" />
+        <LazyLoad height="100%">
+          <img src={url5} alt="mixologists" />
+        </LazyLoad>
       </div>
       <div>
-        <img src={url6} alt="mixologists" />
+        <LazyLoad height="100%">
+          <img src={url6} alt="mixologists" />
+        </LazyLoad>
       </div>
     </Carousel>
   );

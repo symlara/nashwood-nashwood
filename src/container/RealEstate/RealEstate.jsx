@@ -45,7 +45,7 @@ const RealEstate = () => (
       <div className="app__aboutus-content_knife flex__center">
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
-      <div className="app__aboutus-content_history">
+      <div className="app__aboutus-content_history real-estate-pics">
         {/* <Header /> */}
         <img src={url} alt="humble-baron-logo" className="2xl:mt-[-100px]" />
         <img src={url2} alt="humble-baron-logo" className="pt-10" />

@@ -17,7 +17,7 @@ const Entertainment = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about 2xl:mt-[-950px] xl:mt-[-500px]">
+      <div className="app__aboutus-content_about 2xl:mt-[-500px] xl:mt-[-500px]">
         <h1 className="headtext__cormorant">Entertainment</h1>
 
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
@@ -39,7 +39,7 @@ const Entertainment = () => (
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
       <div className="app__aboutus-content_history">
-        <img src={entertainment} alt="singer" />
+        <img src={entertainment} alt="singer" className="2xl:mt-[-100px]" />
         {/* <Header /> */}
 
         {/* <h1 className="headtext__cormorant">Our History</h1> */}

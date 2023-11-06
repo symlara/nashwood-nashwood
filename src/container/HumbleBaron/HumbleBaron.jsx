@@ -18,12 +18,12 @@ const HumbleBaron = () => (
     </div> */}
     <div className="">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Humble Baron</h1>
+        <h1 className="headtext__cormorant hb">Humble Baron</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <div className="longest-bar">
           <p
             className="p__raleway flex-wrap 2xl:text-lg"
-            style={{ margin: "2rem 0  ", marginLeft: "-80px" }}
+            style={{ margin: "2rem 0  ", marginLeft: "-30px" }}
           >
             Humble Baron is Middle Tennessee’s newest restaurant, bar and
             entertainment venue, located on the property of the iconic Nearest
