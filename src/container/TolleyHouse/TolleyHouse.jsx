@@ -47,7 +47,7 @@ const TolleyHouse = () => (
         <img
           src={tolleyhouse}
           alt="tolley-house"
-          className="w-[40%] h-[40%] rounded-xl xl:mt-[-180px] xl:ml-[900px] 2xl:mt-[-220px] 2xl:ml-[1080px]"
+          className="w-[60%] h-[60%] xl:w-[40%] xl:h-[40%] rounded-xl xl:mt-[-180px] xl:ml-[900px] 2xl:mt-[-220px] 2xl:ml-[1080px]"
         />
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
