@@ -48,7 +48,7 @@ const Hospitality = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
       <div className="app__aboutus-content flex__center">
-        <div className="app__aboutus-content_about 2xl:mt-[-150px]">
+        <div className="app__aboutus-content_about xl:mt-[-100px] 2xl:mt-[-150px]">
           <h1 className="headtext__cormorant ">Hospitality</h1>
           <div className="hospitality">
             {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
@@ -72,8 +72,6 @@ const Hospitality = () => (
         </div>
 
         <div className="app__aboutus-content_history">
-          {/* Add the gallery here with photos? */}
-
           {/* <img
           src={images.entertainment}
           className="w-[50%] h-[50%] rounded-xl xl:ml-[150px]"

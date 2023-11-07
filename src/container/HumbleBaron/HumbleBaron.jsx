@@ -47,7 +47,7 @@ const HumbleBaron = () => (
         <img
           src={url}
           alt="humble-baron-logo"
-          className="2xl:w-[30%] 2xl:h-[30%] 2xl:mt-[-290px] 2xl:ml-[1080px] xl:ml-[850px] xl:mt-[-360px]"
+          className=" xl:w-[30%] xl:h-[30%] 2xl:w-[30%] 2xl:h-[30%] 2xl:mt-[-290px] 2xl:ml-[1080px] xl:ml-[930px] xl:mt-[-250px]"
         />
         {/* <img
           src={humblebaron}

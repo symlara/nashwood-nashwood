@@ -18,11 +18,11 @@ const TolleyHouse = () => (
     </div> */}
     <div>
       <div>
-        <h1 className="tolley-house text-white text-4xl xl:ml-[400px]">
+        <h1 className="tolley-house text-white text-4xl xl:ml-[250px]">
           Tolley House
         </h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-        <div className="tolley-house-p app__aboutus-content_about">
+        <div className="tolley-house-p app__aboutus-content_about xl:ml-[-30px]">
           <p
             className="p__raleway flex-wrap 2xl:text-lg"
             style={{ margin: "2rem 0", marginLeft: "-30px" }}
@@ -47,7 +47,7 @@ const TolleyHouse = () => (
         <img
           src={tolleyhouse}
           alt="tolley-house"
-          className="w-[50%] h-[50%] rounded-xl xl:mt-[-250px] xl:ml-[860px] 2xl:mt-[-220px] 2xl:ml-[1080px]"
+          className="w-[40%] h-[40%] rounded-xl xl:mt-[-180px] xl:ml-[900px] 2xl:mt-[-220px] 2xl:ml-[1080px]"
         />
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
