@@ -1,5 +1,6 @@
 import React from "react";
-import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+// import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
+import { AiOutlineInstagram } from "react-icons/ai";
 
 import nashwoodwatermark from "../../assets/nashwood-nw-wordmark-logo-white-rgb-640px-w-72ppi.png";
 
@@ -32,7 +33,7 @@ const Footer = () => (
       <div className="app__footer-links_icons mt-5">
         {/* <FiFacebook />
         <FiTwitter /> */}
-        <FiInstagram />
+        <AiOutlineInstagram />
       </div>
       {/* <div className="app__footer-links_work">
         <h1 className="app__footer-headtext">Working Hours</h1>

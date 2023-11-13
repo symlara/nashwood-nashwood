@@ -117,6 +117,10 @@
   width: 45px;
 }
 
+.carousel-status {
+  visibility: hidden;
+}
+
 /* max screen size styles */
 @media (max-width: 2240px) {
   .app__wrapper_img img {
@@ -146,6 +150,7 @@
   }
 }
 
+/* ipad screens */
 @media screen and (max-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
@@ -161,6 +166,48 @@
 
   .app__wrapper_img img {
     width: 100%;
+  }
+
+  .subtitle h1 {
+    margin-left: 20px;
+  }
+
+  .nashwood-inc {
+    margin-left: 15px !important;
+  }
+
+  .longest-bar {
+    margin-left: 100px;
+  }
+
+  .humble-baron-logo {
+    margin-left: 255px;
+  }
+
+  .humble-baron-logo img {
+    width: 252px;
+  }
+
+  .tolley-house-p {
+    margin-left: 100px;
+  }
+
+  .tolley-house {
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+
+  .tolley-house-img {
+    margin-left: 220px;
+    width: 550px;
+  }
+
+  .hospitality {
+    margin-left: 100px;
+  }
+
+  .real-estate-pics img {
+    width: 450px;
   }
 }
 

@@ -11,14 +11,17 @@ const url =
 const image = new Image();
 image.src = url;
 
+//mixoligists
 const url2 =
   "https://user-images.githubusercontent.com/40181569/278894550-594e6fa3-4394-46b6-8ad6-e6abec9df039.jpg";
 
+//tolley house
 const url3 =
-  "https://user-images.githubusercontent.com/40181569/280422816-0003fd3a-99fd-4b17-8b3d-af2213d1fd90.jpeg";
+  "https://user-images.githubusercontent.com/40181569/279143157-08299ac9-0aa1-4da0-88b1-fc03215822b9.jpeg";
 const image3 = new Image();
 image3.src = url3;
 
+// humble baron bar
 const url4 =
   "https://user-images.githubusercontent.com/40181569/279208483-33e9e79d-311b-431a-87f7-d92e6152c496.jpg";
 const image4 = new Image();
@@ -30,6 +33,7 @@ const url5 =
 const image5 = new Image();
 image4.src = url5;
 
+// gazette building
 const url6 =
   "https://user-images.githubusercontent.com/40181569/280851835-8014fae7-b5e4-4fca-a47a-71d74b387422.jpg";
 const image6 = new Image();
@@ -42,8 +46,8 @@ image4.src = url6;
 const Gallery2 = () => {
   return (
     <Carousel
-      infiniteLoop
-      autoPlay
+      infiniteLoop={true}
+      autoPlay={true}
       className="2xl:w-[1360px] 2xl:h-[880px] xl:w-[1000px] justify-center items-center xl:ml-[200px] 2xl:ml-[200px]"
     >
       <div>

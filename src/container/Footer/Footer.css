@@ -78,6 +78,7 @@
   }
 }
 
+/* ipad screens */
 @media screen and (max-width: 1150px) {
   .app__footer-links {
     align-items: center;
@@ -90,6 +91,20 @@
   .app__footer-links_work {
     margin: 2rem 0;
     width: 100%;
+    flex-direction: column;
+  }
+  .app__footer-links_logo {
+    margin-left: 730px;
+    margin-top: -25px;
+  }
+
+  .app__footer-links_contact {
+    margin-left: 250px;
+  }
+
+  .app__footer-links_icons {
+    margin-top: -150px !important;
+    margin-left: 250px;
   }
 }
 

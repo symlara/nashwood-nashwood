@@ -16,6 +16,11 @@
   --color-white: #ffffff;
   --color-blue: #1a3a61;
 }
+html,
+body {
+  overflow-x: hidden;
+  width: 100% !important;
+}
 
 * {
   box-sizing: border-box;
@@ -23,7 +28,8 @@
   margin: 0;
   scroll-behavior: smooth;
   max-width: 100vw;
-  /* overflow-x: hidden; */
+  height: auto;
+  /* overflow-y: hidden; */
 }
 
 a {

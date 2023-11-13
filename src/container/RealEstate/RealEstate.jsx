@@ -1,10 +1,12 @@
 import React from "react";
 
+// us bank
 const url =
   "https://user-images.githubusercontent.com/40181569/280851025-5d381001-2bce-4f95-bdb6-ab75dde7dbcf.jpg";
 const image = new Image();
 image.src = url;
 
+// gazette building
 const url2 =
   "https://user-images.githubusercontent.com/40181569/280851835-8014fae7-b5e4-4fca-a47a-71d74b387422.jpg";
 const image2 = new Image();
@@ -47,8 +49,8 @@ const RealEstate = () => (
       </div>
       <div className="app__aboutus-content_history real-estate-pics">
         {/* <Header /> */}
-        <img src={url} alt="humble-baron-logo" className="2xl:mt-[-100px]" />
-        <img src={url2} alt="humble-baron-logo" className="pt-10" />
+        <img src={url} alt="us bank" className="2xl:mt-[-100px]" />
+        <img src={url2} alt="gazette building" className="pt-10" />
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         {/* <img
