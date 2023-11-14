@@ -313,6 +313,10 @@
   .p__raleway {
     font-size: 18px !important;
   }
+
+  .top {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 450px) {

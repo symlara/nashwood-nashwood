@@ -48,7 +48,7 @@ const Footer = () => (
     <div>
       <button
         type="button"
-        className=" bg-black rounded-xl px-5 text-white cursor-pointer xl:ml-[1000px] xl:mt-[-800px] relative"
+        className=" top bg-black rounded-xl px-5 text-white cursor-pointer xl:ml-[1000px] xl:mt-[-800px] relative"
       >
         <a href="#top">
           {/* <FaArrowUp />{" "} */}
