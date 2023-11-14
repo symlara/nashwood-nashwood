@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { FaArrowUp } from "react-icons/fa";
 import {
   Gallery,
   Header,
@@ -28,7 +29,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="bg-[#1a3a61]">
+    <div className="bg-[#1a3a61]" id="top">
       <Navbar />
       {/* <Home /> */}
 

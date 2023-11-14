@@ -43,7 +43,7 @@ const HumbleBaron = () => (
         </button> */}
       </div>
 
-      <div className="humble-baron-logo">
+      <div className="humble-baron-logo z-100">
         <img
           src={url}
           alt="humble-baron-logo"

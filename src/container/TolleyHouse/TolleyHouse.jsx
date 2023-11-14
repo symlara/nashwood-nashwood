@@ -24,14 +24,14 @@ const TolleyHouse = () => (
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <div className="tolley-house-p app__aboutus-content_about xl:ml-[-30px]">
           <p
-            className="p__raleway flex-wrap 2xl:text-lg"
+            className="p__raleway flex-wrap 2xl:text-lg whitespace-normal"
             style={{ margin: "2rem 0", marginLeft: "-30px" }}
           >
             The Tolley House is the most storied Bed & Breakfast in Lynchburg,
             Tennessee. One of historic Lynchburg’s oldest antebellum homes,
             Tolley House, a boutique inn, was once owned by Lem Motlow and Lem
             Tolley, the former master distiller for Jack Daniel’s Distillery.
-            The Tolley House is just a mile from Lynchburg’s town square, where
+            The Tolley House is just a mile from Lynchburg’s town square, <br/>where
             you can visit shops and take in the beauty of the historic town.
           </p>
         </div>

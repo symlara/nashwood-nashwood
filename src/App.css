@@ -150,6 +150,22 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .humble-baron-logo img {
+    margin-left: 880px;
+    margin-top: -300px;
+  }
+
+  .tolley-house-img img {
+    margin-left: 840px;
+    margin-top: -280px;
+  }
+
+  .tolley-house-p p {
+    margin-left: -55px !important;
+  }
+}
+
 /* ipad screens */
 @media screen and (max-width: 1150px) {
   .app__wrapper {
@@ -243,7 +259,7 @@
   .humble-baron-logo {
     width: 50%;
     margin-left: 100px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .tolley-house {

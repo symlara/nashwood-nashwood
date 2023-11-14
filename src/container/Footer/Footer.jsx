@@ -1,6 +1,7 @@
 import React from "react";
 // import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { FaArrowUp } from "react-icons/fa";
 
 import nashwoodwatermark from "../../assets/nashwood-nw-wordmark-logo-white-rgb-640px-w-72ppi.png";
 
@@ -9,7 +10,7 @@ import FooterOverlay from "../../components/FooterOverlay/FooterOverlay";
 import "./Footer.css";
 
 const Footer = () => (
-  <div className="app__footer section__padding xl:mt-[400px]" id="contact-us">
+  <div className="app__footer section__padding xl:mt-[150px]" id="contact-us">
     <FooterOverlay />
 
     <div className="app__footer-links">
@@ -19,6 +20,7 @@ const Footer = () => (
         <p className="p__raleway">
           323 Depot St., Shelbyville, Tennessee 37160
         </p>
+        <p className="p__raleway">931-325-6279</p>
         {/* <p className="p__raleway">9 W 53rd St, New York, NY 10019, USA</p>
         <p className="p__raleway">+1 212-344-1230</p>
         <p className="p__raleway">+1 212-555-1230</p> */}
@@ -42,6 +44,17 @@ const Footer = () => (
         <p className="p__raleway">Saturday-Sunday:</p>
         <p className="p__raleway">07:00am -11:00 pm</p>
       </div> */}
+    </div>
+    <div>
+      <button
+        type="button"
+        className=" bg-black rounded-xl px-5 text-white cursor-pointer xl:ml-[1000px] xl:mt-[-800px] relative"
+      >
+        <a href="#top">
+          {/* <FaArrowUp />{" "} */}
+          Back to Top
+        </a>
+      </button>
     </div>
     <div className="footer__copyright">
       <p className="p__raleway">2023 Nashwood Inc. All Rights reserved.</p>
