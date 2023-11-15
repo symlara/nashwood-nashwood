@@ -113,11 +113,30 @@
   font-family: var(--font-base);
 }
 
+#tolley {
+  width: 950px;
+}
+
 .spoon__img {
   width: 45px;
 }
 
 .carousel-status {
+  visibility: hidden;
+}
+
+.carousel.carousel-slider .control-arrow,
+.control-arrow .control-prev {
+  height: 500px;
+  margin-left: 20px !important;
+}
+
+.carousel.carousel-slider .control-arrow,
+.control-arrow .control-next {
+  margin-right: 20px;
+}
+
+.carousel .control-dots {
   visibility: hidden;
 }
 
@@ -234,6 +253,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  body {
+    overflow-x: hidden;
+  }
   .section__padding {
     padding: 4rem 2rem;
   }

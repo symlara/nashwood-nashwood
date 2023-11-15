@@ -54,7 +54,7 @@ const AboutUs = () => (
           <img
             alt="keithweaver"
             src={url2}
-            className="w-[50%] h-[50%] rounded-xl xl:ml-[70px] keith"
+            className=" w-[80%] rounded-xl xl:ml-[70px] z-[100]"
           />
         </LazyLoad>
       </div>

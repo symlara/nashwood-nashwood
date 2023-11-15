@@ -11,87 +11,91 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <a href="/">
-          <img src={nashwoodwatermark} alt="app logo" />
-        </a>
-      </div>
-      <ul className="app__navbar-links">
-        <li className="p__raleway">
-          <Link to="/about-us">About Us</Link>
-        </li>
-        <li className="p__raleway">
-          <Link to="/entertainment">Entertainment</Link>
-        </li>
-        <li className="p__raleway">
-          <Link to="/hospitality">Hospitality</Link>
-        </li>
-        {/* <li className="p__raleway">
+    <div>
+      <nav className="app__navbar">
+        <div className="app__navbar-logo">
+          <a href="/">
+            <img src={nashwoodwatermark} alt="app logo" />
+          </a>
+        </div>
+
+        <ul className="app__navbar-links">
+          <li className="p__raleway">
+            <Link to="/about-us">About Us</Link>
+          </li>
+          <li className="p__raleway">
+            <Link to="/entertainment">Entertainment</Link>
+          </li>
+          <li className="p__raleway">
+            <Link to="/hospitality">Hospitality</Link>
+          </li>
+          {/* <li className="p__raleway">
           <a href="#humble-baron">Humble Baron</a>
         </li>
         <li className="p__raleway">
           <a href="#tolley-house">The Tolley House</a>
         </li> */}
-        <li className="p__raleway">
-          <Link to="/real-estate">RealEstate</Link>
-        </li>
-        {/* <li className="p__raleway">
+          <li className="p__raleway">
+            <Link to="/real-estate">RealEstate</Link>
+          </li>
+          {/* <li className="p__raleway">
           <a href="#contact-us" id="#contact-us">
             Contact Us
           </a>
         </li> */}
-      </ul>
-      <div className="app__navbar-login">
-        {/* <a href="#login" className="p__raleway">
+        </ul>
+
+        <div className="app__navbar-login">
+          {/* <a href="#login" className="p__raleway">
           Log In / Register
         </a>
         <div />
         <a href="/" className="p__raleway">
           Book Table
         </a> */}
-      </div>
+        </div>
 
-      {/* smallscreen */}
-      <div className="app__navbar-smallscreen">
-        <GiHamburgerMenu
-          color="#fff"
-          fontSize={27}
-          onClick={() => setToggleMenu(true)}
-          className="cursor-pointer"
-        />
+        {/* smallscreen */}
+        <div className="app__navbar-smallscreen">
+          <GiHamburgerMenu
+            color="#fff"
+            fontSize={27}
+            onClick={() => setToggleMenu(true)}
+            className="cursor-pointer"
+          />
 
-        {toggleMenu && (
-          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <AiOutlineClose
-              fontSize={27}
-              className="overlay__close"
-              onClick={() => setToggleMenu(false)}
-            />
-            <ul className="app__navbar-smallscreen_links">
-              <li className="p__opensans">
-                <Link to="/about-us">About Us</Link>
-              </li>
-              <li className="p__opensans">
-                <Link to="/entertainment">Entertainment</Link>
-              </li>
-              <li className="p__opensans">
-                <Link to="/hospitality">Hospitality </Link>
-              </li>
+          {toggleMenu && (
+            <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+              <AiOutlineClose
+                fontSize={27}
+                className="overlay__close"
+                onClick={() => setToggleMenu(false)}
+              />
+              <ul className="app__navbar-smallscreen_links">
+                <li className="p__opensans">
+                  <Link to="/about-us">About Us</Link>
+                </li>
+                <li className="p__opensans">
+                  <Link to="/entertainment">Entertainment</Link>
+                </li>
+                <li className="p__opensans">
+                  <Link to="/hospitality">Hospitality </Link>
+                </li>
 
-              <li className="p__opensans">
-                <Link to="/real-estate">Real Estate</Link>
-              </li>
-              {/* <li className="p__opensans">
+                <li className="p__opensans">
+                  <Link to="/real-estate">Real Estate</Link>
+                </li>
+                {/* <li className="p__opensans">
                 <a href="#contact-us" id="contact-us">
                   Contact Us
                 </a>
               </li> */}
-            </ul>
-          </div>
-        )}
-      </div>
-    </nav>
+              </ul>
+            </div>
+          )}
+        </div>
+      </nav>
+    </div>
   );
 };
 

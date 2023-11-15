@@ -34,14 +34,6 @@
   text-align: left;
 }
 
-.app__aboutus-content_knife {
-  margin: 2rem 4rem;
-}
-
-.app__aboutus-content_knife img {
-  height: 910px;
-}
-
 .app__aboutus-content_history {
   flex: 1;
   display: flex;

@@ -4,8 +4,13 @@
   justify-content: space-between;
   align-items: center;
   background: var(--color-blue);
-
   padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 100 !important;
+  /* background-color: #7e7575; */
+  margin-bottom: 10px;
+  opacity: 0.8;
 }
 
 .app__navbar-logo {
