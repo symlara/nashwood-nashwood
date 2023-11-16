@@ -17,7 +17,7 @@ const Entertainment = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about 2xl:mt-[-500px] xl:mt-[-200px]">
+      <div className="app__aboutus-content_about 2xl:mt-[-500px] xl:mt-[70px]">
         <h1 className="headtext__cormorant">Entertainment</h1>
 
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
@@ -40,28 +40,6 @@ const Entertainment = () => (
       </div>
       <div className="app__aboutus-content_history">
         <img src={entertainment} alt="singer" className="2xl:mt-[-100px]" />
-        {/* <Header /> */}
-
-        {/* <h1 className="headtext__cormorant">Our History</h1> */}
-        {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-        {/* <img
-          src={images.entertainment}
-          className="w-[50%] h-[50%] rounded-xl xl:ml-[150px]"
-        /> */}
-        {/* <img
-          src={entertainment}
-          alt="entertainment logo"
-          className="w-[50%] h-[50%] rounded-xl xl:ml-[70px]"
-        /> */}
-
-        {/* <p className="p__raleway">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
-        </p> */}
-        {/* <button type="button" className="custom__button">
-          Know More
-        </button> */}
       </div>
     </div>
   </div>

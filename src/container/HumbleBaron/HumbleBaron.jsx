@@ -43,11 +43,11 @@ const HumbleBaron = () => (
         </button> */}
       </div>
 
-      <div className="humble-baron-logo z-100">
+      <div className="humble-baron-logo z-100 2xl:mt-[-350px]">
         <img
           src={url}
           alt="humble-baron-logo"
-          className=" xl:w-[30%] xl:h-[30%] 2xl:w-[35%] 2xl:h-[30%] 2xl:mt-[-290px] 2xl:ml-[1090px] xl:ml-[930px] xl:mt-[-250px]"
+          className=" xl:w-[30%] xl:h-[30%] 2xl:w-[35%] 2xl:ml-[1090px] 2xl:h-[30%] xl:ml-[930px] xl:mt-[-250px]"
         />
         {/* <img
           src={humblebaron}

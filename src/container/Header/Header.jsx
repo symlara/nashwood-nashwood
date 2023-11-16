@@ -30,7 +30,10 @@ corsImage.src = url + "?not=from-cache-please";
 import "./Header.css";
 
 const Header = () => (
-  <div className="app__header app__wrapper section__padding" id="home">
+  <div
+    className="app__header app__wrapper section__padding bg-[#1a3a61]"
+    id="home"
+  >
     <div className="app__wrapper_info 2xl:ml-[-50px] 2xl:mt-[-400px] whitespace-normal">
       {/* <SubHeading title="Nashwood, Inc." /> */}
       {/* <h1 className="app__header-h1">The Key to Fine Dining</h1> */}

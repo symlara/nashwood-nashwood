@@ -47,12 +47,12 @@ const Gallery2 = () => {
   return (
     <Carousel
       infiniteLoop={true}
-      autoPlay={true}
-      className="2xl:w-[1360px] 2xl:h-[880px] xl:w-[1000px] xl:h-[700px] justify-center items-center xl:mt-[80px] xl:ml-[200px] 2xl:ml-[200px]"
+      autoPlay={false}
+      className="2xl:w-[1360px] 2xl:h-[880px] xl:w-[1000px] xl:h-[700px] justify-center items-center xl:mt-[120px] xl:ml-[200px] 2xl:ml-[200px]"
     >
       <div>
         <LazyLoad height="100%">
-          <img src={url} alt="humble-baron" className="" />
+          <img src={url} alt="humble-baron" className="opacity-0.5" />
         </LazyLoad>
       </div>
       <div>

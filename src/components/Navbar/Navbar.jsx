@@ -9,6 +9,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const toggle = () => setToggleMenu(!toggleMenu);
 
   return (
     <div>
@@ -73,17 +74,28 @@ const Navbar = () => {
               />
               <ul className="app__navbar-smallscreen_links">
                 <li className="p__opensans">
-                  <Link to="/about-us">About Us</Link>
+                  <Link to="/about-us" onClick={() => setToggleMenu(false)}>
+                    About Us
+                  </Link>
                 </li>
                 <li className="p__opensans">
-                  <Link to="/entertainment">Entertainment</Link>
+                  <Link
+                    to="/entertainment"
+                    onClick={() => setToggleMenu(false)}
+                  >
+                    Entertainment
+                  </Link>
                 </li>
                 <li className="p__opensans">
-                  <Link to="/hospitality">Hospitality </Link>
+                  <Link to="/hospitality" onClick={() => setToggleMenu(false)}>
+                    Hospitality{" "}
+                  </Link>
                 </li>
 
                 <li className="p__opensans">
-                  <Link to="/real-estate">Real Estate</Link>
+                  <Link to="/real-estate" onClick={() => setToggleMenu(false)}>
+                    Real Estate
+                  </Link>
                 </li>
                 {/* <li className="p__opensans">
                 <a href="#contact-us" id="contact-us">

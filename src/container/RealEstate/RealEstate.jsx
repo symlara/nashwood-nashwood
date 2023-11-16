@@ -28,7 +28,7 @@ const RealEstate = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about 2xl:mt-[-950px] xl:mt-[-500px]">
+      <div className="app__aboutus-content_about 2xl:mt-[-950px] xl:mt-[-100px]">
         <h1 className="headtext__cormorant">Real Estate</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p

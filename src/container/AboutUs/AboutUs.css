@@ -44,6 +44,14 @@
   text-align: left;
 }
 
+.app__aboutus-content_history img {
+  width: 70%;
+}
+
+.keith {
+  width: 60% !important;
+}
+
 .app__aboutus-content_history p,
 .app__aboutus-content_about p {
   margin: 2rem 0;
@@ -75,6 +83,10 @@
 }
 
 @media screen and (max-width: 650px) {
+  .app__aboutus-content_history img {
+    width: 70% !important;
+  }
+
   .app__aboutus-content_about {
     margin-top: -100px;
   }

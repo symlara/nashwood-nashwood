@@ -31,8 +31,9 @@ const TolleyHouse = () => (
             Tennessee. One of historic Lynchburg’s oldest antebellum homes,
             Tolley House, a boutique inn, was once owned by Lem Motlow and Lem
             Tolley, the former master distiller for Jack Daniel’s Distillery.
-            The Tolley House is just a mile from Lynchburg’s town square, <br/>where
-            you can visit shops and take in the beauty of the historic town.
+            The Tolley House is just a mile from Lynchburg’s town square, <br />
+            where you can visit shops and take in the beauty of the historic
+            town.
           </p>
         </div>
 

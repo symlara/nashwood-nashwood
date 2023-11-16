@@ -49,12 +49,12 @@ const AboutUs = () => (
       <div className="app__aboutus-content_knife flex__center">
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
-      <div className="app__aboutus-content_history">
+      <div className="app__aboutus-content_history keith">
         <LazyLoad height="100%">
           <img
             alt="keithweaver"
             src={url2}
-            className=" w-[80%] rounded-xl xl:ml-[70px] z-[100]"
+            className="xl:w-[80%] rounded-xl xl:ml-[70px] z-[100]"
           />
         </LazyLoad>
       </div>
