@@ -48,7 +48,7 @@ const Gallery2 = () => {
     <Carousel
       infiniteLoop={true}
       autoPlay={true}
-      className="2xl:w-[1200px] 2xl:h-[880px] xl:w-[1000px] xl:h-[700px] gap-0 justify-center items-center xl:mt-[120px] xl:ml-[200px] 2xl:mt-[185px] 2xl:ml-[300px]"
+      className="carousel 2xl:w-[1200px] 2xl:h-[880px] xl:w-[1000px] xl:h-[700px] gap-0 justify-center items-center xl:mt-[120px] xl:ml-[200px] 2xl:mt-[185px] 2xl:ml-[300px]"
     >
       <div>
         <LazyLoad height="100%">

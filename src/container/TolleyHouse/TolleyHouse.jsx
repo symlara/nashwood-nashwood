@@ -18,13 +18,13 @@ const TolleyHouse = () => (
     </div> */}
     <div>
       <div>
-        <h1 className="tolley-house text-white text-4xl xl:ml-[250px] 2xl:text-5xl">
+        <h1 className="tolley-house text-white headtext__cormorant xl:ml-[250px] 2xl:text-5xl">
           Tolley House
         </h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <div className="tolley-house-p app__aboutus-content_about 2xl:ml-[10px] xl:ml-[-30px]">
           <p
-            className="p__raleway flex-wrap 2xl:text-lg whitespace-normal"
+            className="p__raleway flex-wrap 2xl:text-lg"
             style={{ margin: "2rem 0", marginLeft: "-30px" }}
           >
             The Tolley House is the most storied Bed & Breakfast in Lynchburg,

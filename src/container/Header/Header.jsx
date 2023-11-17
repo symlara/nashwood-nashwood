@@ -5,23 +5,21 @@ import { slideIn, staggerContainer, textVariant } from "../../../utils/motion";
 
 import { Link, BrowserRouter } from "react-router-dom";
 
+//entertainment image
 const url =
-  "https://user-images.githubusercontent.com/40181569/277799722-e94ea8a9-f693-4942-9c61-1bb038a441c3.jpg";
+  "https://user-images.githubusercontent.com/40181569/283946750-fa268f46-bf52-44bb-a926-a8885a0fa9c4.jpg";
 const image = new Image();
 image.src = url;
 
+//hospitality
 const url2 =
-  "https://user-images.githubusercontent.com/40181569/277801683-cbffb703-5818-4ddf-a675-8c32909875fb.jpg";
+  "https://user-images.githubusercontent.com/40181569/283947204-d4a710b7-1319-47f0-aca3-8f78b17d5139.jpg";
 const image2 = new Image();
 image2.src = url2;
 
-const url3 =
-  "https://user-images.githubusercontent.com/40181569/277802030-f1466ded-fa99-4393-909f-6d2f32f60a0c.jpg";
-const image3 = new Image();
-image3.src = url3;
-
+//real-estate
 const url4 =
-  "https://user-images.githubusercontent.com/40181569/277804148-36c016ba-2b7c-4219-bedf-ca9025c353b0.jpg";
+  "https://user-images.githubusercontent.com/40181569/283947364-dfbcd97c-2211-4b94-ab01-c19a12e8c8f7.jpg";
 const image4 = new Image();
 image4.src = url4;
 
@@ -70,7 +68,8 @@ const Header = () => (
 
     {/* <img src={url4} alt="realestate logo" className="rounded-xl" />
     </div> */}
-    <div className="flex w-[30%] xl:w-[50%] justify-center items-center header-imgs 2xl:ml-[270px] 2xl:mt-[-300px] 2xl:w-[100%]">
+    <div className="flex w-[30%] xl:w-[50%] justify-center items-center header-imgs 2xl:ml-[270px] 2xl:mt-[-250px] 2xl:w-[100%]">
+      {" "}
       {/* <a href="/">
         <img className="cursor-pointer rounded-xl xl:w-[80%]" src={url} />
       </a> */}
@@ -83,7 +82,6 @@ const Header = () => (
           className="cursor-pointer entertainment rounded-xl 2xl:w-[40%] justify-center xl:w-[70%] xl:mt-[-310px] xl:ml-[80px]"
         />
       </div>
-
       {/* </Link> */}
       {/* <Link to="/hospitality"> */}
       <div>
@@ -91,10 +89,9 @@ const Header = () => (
           src={url2}
           whileHover={{ scale: 1.5 }}
           whileTap={{ scale: 0.9 }}
-          className="cursor-pointer rounded-xl hospitality-header xl:w-[75%] 2xl:w-[40%] xl:mt-[-310px] xl:ml-[20px]"
+          className="cursor-pointer rounded-xl hospitality-header xl:w-[75%] 2xl:w-[45%] xl:mt-[-310px] xl:ml-[20px]"
         />
       </div>
-
       {/* </Link> */}
       {/* <Link to="/real-estate"> */}
       <div>
@@ -102,10 +99,9 @@ const Header = () => (
           src={url4}
           whileHover={{ scale: 1.5 }}
           whileTap={{ scale: 1.1 }}
-          className="cursor-pointer rounded-xl xl:w-[80%] 2xl:w-[40%] xl:mt-[-310px] xl:ml-[-25px]"
+          className="cursor-pointer rounded-xl xl:w-[80%] 2xl:mt-[-305px] 2xl:w-[48%] xl:mt-[-310px] xl:ml-[-25px]"
         />
       </div>
-
       {/* </Link> */}
     </div>
   </div>
