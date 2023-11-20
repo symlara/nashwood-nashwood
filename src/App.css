@@ -10,7 +10,8 @@
 
 .app__bg {
   /* background: url("./assets/bg.png"); */
-  background-color: var(--color-blue);
+  /* background-color: var(--color-blue); */
+  background-image: url();
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -113,12 +114,20 @@
   font-family: var(--font-base);
 }
 
-#tolley {
-  width: 935px;
-}
+/* #tolley {
+  width: 935px; 
+
+} */
 
 .spoon__img {
   width: 45px;
+}
+.carousel {
+  width: 100% !important;
+  filter: brightness(80%);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
 }
 
 .carousel-status {
@@ -129,6 +138,7 @@
 .control-arrow .control-prev {
   height: 500px;
   margin-left: 25px !important;
+  visibility: hidden;
 }
 
 .carousel.carousel-slider .control-arrow,
@@ -137,7 +147,13 @@
 }
 
 .carousel .control-dots {
-  visibility: hidden;
+  margin: 20px 0 !important;
+}
+
+.carousel .control-dots .dot {
+  height: 15px !important;
+  width: 15px !important;
+  opacity: 0.6 !important;
 }
 
 /* max screen size styles */
@@ -208,11 +224,6 @@
 
   .longest-bar {
     margin-left: -45px;
-  }
-
-  .carousel {
-    height: 80%;
-    width: 80% !important;
   }
 }
 

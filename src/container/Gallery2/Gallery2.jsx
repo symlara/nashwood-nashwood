@@ -48,9 +48,11 @@ const Gallery2 = () => {
     <Carousel
       infiniteLoop={true}
       autoPlay={true}
-      className="carousel 2xl:w-[1200px] 2xl:h-[880px] xl:w-[1000px] xl:h-[700px] gap-0 justify-center items-center xl:mt-[120px] xl:ml-[200px] 2xl:mt-[185px] 2xl:ml-[300px]"
+      showThumbs={false}
+      className="carousel"
     >
       <div>
+        <div className="gallery__overlay" />
         <LazyLoad height="100%">
           <img src={url} alt="humble-baron" className="opacity-0.5" />
         </LazyLoad>
@@ -65,7 +67,7 @@ const Gallery2 = () => {
           <img
             src={url3}
             alt="tolley-house"
-            className="xl:h-[625px]"
+            className="xl:h-[950px] xl:w-[1090px]"
             id="tolley"
           />
         </LazyLoad>
