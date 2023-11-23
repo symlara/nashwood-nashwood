@@ -327,7 +327,7 @@
     align-content: center;
     justify-content: center;
     display: flex;
-    margin-top: 50px;
+    margin-top: 50px !important;
     margin-left: -15px;
   }
 

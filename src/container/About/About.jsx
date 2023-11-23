@@ -39,7 +39,7 @@ const About = () => {
           >
             <motion.div
               variants={fadeIn("right", "tween", 0.3, 1)}
-              className="about"
+              className=""
             >
               <h1 className="headtext__cormorant">About Us</h1>
             </motion.div>
@@ -52,7 +52,7 @@ const About = () => {
           >
             <motion.div
               variants={fadeIn("right", "tween", 0.3, 1)}
-              className="app__aboutus-content_about"
+              className="app__aboutus-content_about about"
             >
               <p
                 className="p__raleway flex-wrap 2xl:text-lg"

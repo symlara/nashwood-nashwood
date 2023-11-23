@@ -17,7 +17,7 @@ corsImage.crossOrigin = "Anonymous";
 corsImage.src = url + "?not=from-cache-please";
 
 import Header from "../Header/Header";
-import "../AboutUs/AboutUs.css";
+import "../About/About.css";
 
 const RealEstate = () => (
   <div

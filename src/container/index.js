@@ -1,4 +1,3 @@
-import AboutUs from "./AboutUs/AboutUs";
 import Entertainment from "./Entertainment/Entertainment";
 import FindUs from "./FindUs/FindUs";
 import Footer from "./Footer/Footer";
@@ -9,7 +8,6 @@ import RealEstate from "./RealEstate/RealEstate";
 import About from "../container/About/About";
 
 export {
-  AboutUs,
   About,
   Entertainment,
   FindUs,

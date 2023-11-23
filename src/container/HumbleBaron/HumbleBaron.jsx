@@ -9,7 +9,7 @@ image.src = url;
 const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
 corsImage.src = url + "?not=from-cache-please";
-import "../AboutUs/AboutUs.css";
+import "../About/About.css";
 
 const HumbleBaron = () => (
   <div className="mt-10" id="humble-baron">

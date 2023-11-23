@@ -8,8 +8,7 @@ image.src = tolleyhouse;
 const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
 corsImage.src = tolleyhouse + "?not=from-cache-please";
-
-import "../AboutUs/AboutUs.css";
+import "../About/About.css";
 
 const TolleyHouse = () => (
   <div className="xl:mt-[100px]" id="tolley-house">

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 
-import "../AboutUs/AboutUs.css";
+import "../About/About.css";
 
 const entertainment =
   "https://user-images.githubusercontent.com/40181569/280852826-8d617545-ea11-46a8-8afe-44f5315b2b15.JPG";
@@ -22,7 +22,7 @@ const Entertainment = () => (
 
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p
-          className="p__raleway flex-wrap 2xl:text-lg"
+          className="p__raleway flex-wrap 2xl:text-lg entertainment"
           style={{ margin: "2rem 0", marginLeft: "-30px" }}
         >
           With leadership representing more than 60 years combined in key roles

@@ -32,7 +32,7 @@ const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
 corsImage.src = url + "?not=from-cache-please";
 
-import "../AboutUs/AboutUs.css";
+import "../About/About.css";
 import Gallery2 from "../Gallery2/Gallery2";
 
 import HumbleBaron from "../HumbleBaron/HumbleBaron";
