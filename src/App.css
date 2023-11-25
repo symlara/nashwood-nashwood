@@ -382,9 +382,9 @@
     display: flex;
   }
 
-  /* .top {
-    display: none;
-  } */
+  .top {
+    margin-left: -20px;
+  }
 
   .carousel.carousel-slider .control-arrow,
   .control-arrow .control-prev {
@@ -438,8 +438,19 @@
     margin-bottom: 150px !important;
   }
 
+  /* entertainment on mobile */
   .entertainment {
     margin-bottom: 5px;
+  }
+
+  .entertainment-p {
+    margin-left: 85px;
+  }
+
+  .entertainment-img {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 80% !important;
   }
 
   .hospitality-header {
