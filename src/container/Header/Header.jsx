@@ -36,7 +36,7 @@ import "./Header.css";
 const Header = () => (
   <section>
     <div
-      className="app__header app__wrapper section__padding bg-[#1a3a61]"
+      className="app__header app__wrapper section__padding "
       id="home"
     >
       <div className="app__wrapper_info 2xl:ml-[-50px] 2xl:mt-[-400px] whitespace-normal">
@@ -73,7 +73,7 @@ const Header = () => (
 
       {/* <img src={url4} alt="realestate logo" className="rounded-xl" />
     </div> */}
-      <div className="flex w-[30%] xl:w-[50%] justify-center items-center header-imgs 2xl:ml-[270px] 2xl:mt-[-250px] 2xl:w-[100%]">
+      <div className="flex xl:w-[50%] xl:ml-[700px] justify-center items-center header-imgs 2xl:ml-[270px] 2xl:mt-[-250px] 2xl:w-[100%]">
         {" "}
         {/* <a href="/">
         <img className="cursor-pointer rounded-xl xl:w-[80%]" src={url} />

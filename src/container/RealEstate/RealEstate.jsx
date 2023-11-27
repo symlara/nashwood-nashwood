@@ -1,4 +1,11 @@
 import React from "react";
+import { motion } from "framer-motion";
+import {
+  slideIn,
+  staggerContainer,
+  textVariant,
+  fadeIn,
+} from "../../../utils/motion";
 
 // us bank
 const url =
@@ -29,17 +36,26 @@ const RealEstate = () => (
     </div> */}
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about 2xl:mt-[-550px] xl:mt-[-100px]">
-        <h1 className="headtext__cormorant">Real Estate</h1>
-        {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-        <p
-          className="p__raleway flex-wrap 2xl:text-lg"
-          style={{ margin: "2rem 0", marginLeft: "-30px" }}
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
         >
-          Nashwood owns a range of commercial and residential property interests
-          to include: The Shelbyville-Times Gazette Building, U.S. Bank
-          Building, The Tolley House, Cedar Ridge Farm, as well as luxury
-          residential real estate interests throughout the country.
-        </p>
+          <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className="real-estate">
+            <h1 className="headtext__cormorant">Real Estate</h1>
+            <p
+              className="p__raleway flex-wrap 2xl:text-lg"
+              style={{ margin: "2rem 0", marginLeft: "-30px" }}
+            >
+              Nashwood owns a range of commercial and residential property
+              interests to include: The Shelbyville-Times Gazette Building, U.S.
+              Bank Building, The Tolley House, Cedar Ridge Farm, as well as
+              luxury residential real estate interests throughout the country.
+            </p>
+          </motion.div>
+        </motion.div>
+
         {/* <button type="button" className="custom__button">
           Know More
         </button> */}
@@ -48,9 +64,18 @@ const RealEstate = () => (
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
       <div className="app__aboutus-content_history real-estate-pics 2xl:mt-[100px]">
-        {/* <Header /> */}
-        <img src={url} alt="us bank" className="us-bank" />
-        <img src={url2} alt="gazette building" className="pt-10" />
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+        >
+          <motion.div variants={fadeIn("left", "tween", 0.3, 1)}>
+            <img src={url} alt="us bank" className="us-bank" />
+            <img src={url2} alt="gazette building" className="pt-10" />
+          </motion.div>
+        </motion.div>
+
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         {/* <img

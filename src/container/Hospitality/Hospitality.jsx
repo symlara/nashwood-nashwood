@@ -5,6 +5,14 @@ import {
   BsArrowRightShort,
 } from "react-icons/bs";
 
+import { motion } from "framer-motion";
+import {
+  slideIn,
+  staggerContainer,
+  textVariant,
+  fadeIn,
+} from "../../../utils/motion";
+
 // hospitality logo
 const url =
   "https://user-images.githubusercontent.com/40181569/277801683-cbffb703-5818-4ddf-a675-8c32909875fb.jpg";
@@ -49,21 +57,35 @@ const Hospitality = () => (
     </div> */}
       <div className="app__aboutus-content flex__center">
         <div className="app__aboutus-content_about xl:mt-[65px] 2xl:mt-[-15px]">
-          <h1 className="headtext__cormorant ">Hospitality</h1>
-          <div className="hospitality">
-            {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-            <p
-              className="p__raleway flex-wrap 2xl:text-lg "
-              style={{ margin: "2rem 0", marginLeft: "-30px" }}
+          <div className="">
+            <motion.div
+              variants={staggerContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0.25 }}
             >
-              Esse incididunt exercitation fugiat ullamco sunt aute ut tempor
-              enim aliquip enim id. Reprehenderit voluptate cillum consequat ex
-              ut ex quis consectetur excepteur tempor deserunt labore. Ut quis
-              dolor occaecat deserunt pariatur cupidatat sunt exercitation
-              pariatur commodo. Ut excepteur excepteur Lorem enim anim aliqua ex
-              nostrud et ipsum consequat minim adipisicing. Esse ullamco aute
-              velit aliquip in in voluptate minim in mollit.
-            </p>
+              <motion.div
+                variants={fadeIn("right", "tween", 0.3, 1)}
+                className="hospitality"
+              >
+                <h1 className="headtext__cormorant xl:ml-[230px]">
+                  Hospitality
+                </h1>
+                <p
+                  className="p__raleway flex-wrap 2xl:text-lg"
+                  style={{ margin: "2rem 0", marginLeft: "-70px" }}
+                >
+                  Esse incididunt exercitation fugiat ullamco sunt aute ut
+                  tempor enim aliquip enim id. Reprehenderit voluptate cillum
+                  consequat ex ut ex quis consectetur excepteur tempor deserunt
+                  labore. Ut quis dolor occaecat deserunt pariatur cupidatat
+                  sunt exercitation pariatur commodo. Ut excepteur excepteur
+                  Lorem enim anim aliqua ex nostrud et ipsum consequat minim
+                  adipisicing. Esse ullamco aute velit aliquip in in voluptate
+                  minim in mollit.
+                </p>
+              </motion.div>
+            </motion.div>
           </div>
 
           <HumbleBaron />

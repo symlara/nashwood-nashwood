@@ -20,6 +20,14 @@ html,
 body {
   /* overflow-x: hidden; */
   width: 100% !important;
+  background: rgb(26, 58, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 58, 97, 1) 0%,
+    rgba(61, 88, 121, 1) 35%,
+    /* rgb(167, 163, 163) 100%  */
+    rgb(183, 178, 178) 100%
+  );
 }
 
 * {

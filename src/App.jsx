@@ -30,7 +30,7 @@ import About from "./container/About/About";
 
 function App() {
   return (
-    <div className="bg-[#1a3a61] pt-[10px]" id="top">
+    <div className=" pt-[10px]" id="top">
       <Navbar />
       {/* <Home /> */}
 
