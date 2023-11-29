@@ -1,0 +1,580 @@
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__bg {
+  /* background: url("./assets/bg.png"); */
+  /* background-color: var(--color-blue); */
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.app__wrapper_info {
+  flex: 1;
+  width: 400px;
+  display: block;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.app__wrapper_img {
+  /* flex: 1; */
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 2rem;
+}
+
+.app__wrapper_img-reverse {
+  justify-content: flex-start;
+  margin-right: 2rem;
+}
+
+.app__wrapper_img {
+  width: 50%;
+}
+
+.glenford {
+  width: 40%;
+}
+
+.custom__button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.custom__button:hover {
+  color: var(--color-golden);
+}
+
+.p__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 29.9px;
+  font-size: 23px;
+}
+
+.p__raleway {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 200;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.headtext__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.humble-baron {
+  font-family: var(--font-base);
+}
+
+.tolley-house {
+  font-family: var(--font-base);
+}
+
+/* #tolley {
+  width: 935px; 
+
+} */
+
+.spoon__img {
+  width: 45px;
+}
+.carousel {
+  width: 100% !important;
+  filter: brightness(80%);
+  background-size: cover;
+  background-position: center center;
+  /* min-height: 100vh; */
+}
+
+.carousel-status {
+  visibility: hidden;
+}
+
+.carousel.carousel-slider .control-arrow,
+.control-arrow .control-prev {
+  height: 500px;
+  margin-left: 25px !important;
+  visibility: hidden;
+}
+
+.carousel.carousel-slider .control-arrow,
+.control-arrow .control-next {
+  margin-right: 25px;
+}
+
+.carousel .control-dots {
+  margin-top: 30px !important;
+}
+
+.carousel .control-dots .dot {
+  height: 15px !important;
+  width: 15px !important;
+  opacity: 0.6 !important;
+}
+
+/* max screen size styles */
+@media (max-width: 2240px) {
+  .app__wrapper_img img {
+    width: 70% !important;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .custom__button,
+  .p__cormorant {
+    font-size: 37px;
+    line-height: 67px;
+  }
+
+  .p__opensans {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .headtext__cormorant {
+    font-size: 150px;
+    line-height: 210px;
+  }
+
+  .spoon__img {
+    width: 80px;
+  }
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.animate-fade .top .fade-in {
+  transform: translateY(0);
+}
+
+.animate-fade .fade-in {
+  opacity: 1;
+  transition: all 1s cubic-bezier(0.18, 0.32, 0.17, 0.99);
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.cards_item {
+  position: relative;
+}
+
+figure {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.cards_image {
+  position: relative;
+}
+
+/* hp screens  */
+@media screen and (min-width: 1280px) {
+  .humble-baron-logo img {
+    margin-left: 880px;
+    margin-top: -300px;
+  }
+
+  .tolley-house-img img {
+    margin-left: 840px;
+    margin-top: -280px;
+  }
+
+  .tolley-house-p p {
+    margin-left: -55px !important;
+  }
+
+  .nashwood-inc {
+    margin-left: 100px;
+  }
+
+  body,
+  html {
+    overflow-x: hidden !important;
+  }
+
+  .us-bank {
+    margin-top: 100px;
+  }
+
+  .tolley-house-p p {
+    margin-left: -45px !important;
+  }
+
+  .hospitality {
+    margin-left: -45px;
+  }
+
+  .longest-bar {
+    margin-left: -45px;
+  }
+
+  .hospitality h1 {
+    margin-left: 280px;
+  }
+
+  .hospitality p {
+    margin-left: -30px !important;
+  }
+
+  .top {
+    width: 15%;
+  }
+}
+
+/* ipad screens */
+@media screen and (max-width: 1150px) {
+  .app__wrapper {
+    flex-direction: column;
+  }
+
+  .app__wrapper_img {
+    margin: 5rem 0 0 0;
+  }
+
+  .app__wrapper_img-reverse {
+    margin: 0 0 5rem 0;
+  }
+
+  .app__wrapper_img img {
+    width: 100%;
+  }
+
+  .subtitle h1 {
+    margin-left: 20px;
+  }
+
+  .nashwood-inc {
+    margin-left: 15px !important;
+  }
+
+  .longest-bar {
+    margin-left: 100px;
+  }
+
+  .humble-baron-logo {
+    margin-left: 330px;
+  }
+
+  .humble-baron-logo img {
+    width: 252px;
+  }
+
+  .tolley-house-p {
+    margin-left: 100px;
+  }
+
+  .tolley-house {
+    margin-left: 180px;
+    margin-top: 50px;
+  }
+
+  .tolley-house-img {
+    margin-left: 290px;
+    width: 550px;
+  }
+
+  .hospitality h1 {
+    margin-left: 290px;
+  }
+
+  .hospitality p {
+    margin-left: 60px !important;
+  }
+
+  .hb {
+    margin-left: 180px;
+  }
+
+  .real-estate-pics img {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .section__padding {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body,
+  html {
+    min-height: 100vh !important;
+  }
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .p__cormorant {
+    font-size: 21px;
+  }
+
+  .p__opensans {
+    font-size: 14px;
+  }
+
+  .humble-baron {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .humble-baron p {
+    display: none;
+  }
+
+  .humble-baron-logo {
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+
+  .humble-baron-logo img {
+    width: 60% !important;
+  }
+
+  .tolley-house {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px !important;
+    margin-left: -50px !important;
+  }
+
+  .tolley-house-img {
+    width: 500px !important;
+    margin-left: 80px;
+    margin-top: -90px;
+  }
+
+  .longest-bar p {
+    display: flex !important;
+    flex: 1 !important;
+    width: 100% !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    margin-left: 180px;
+    margin-top: -10px;
+  }
+
+  .tolley-house-p p {
+    display: flex !important;
+    flex: 1 !important;
+    width: 100% !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    margin-left: 10px;
+    margin-top: 20px !important;
+  }
+
+  .hospitality h1 {
+    display: flex;
+    width: 100% !important;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -50px !important;
+  }
+
+  .hospitality {
+    margin-left: 100px;
+  }
+
+  .real-estate {
+    margin-left: 50px;
+  }
+
+  .real-estate-pics img {
+    padding-bottom: 80px;
+    width: 400px !important;
+    margin-left: 50px;
+  }
+
+  .p__raleway {
+    font-size: 15px !important;
+    color: var(--color-white) !important;
+    width: 100% !important;
+  }
+
+  .nashwood-inc {
+    margin-left: 10px !important;
+    justify-content: center !important;
+    display: flex;
+    color: var(--color-white);
+  }
+
+  .carousel.carousel-slider .control-arrow,
+  .control-arrow .control-prev {
+    height: 500px;
+    margin-left: 25px !important;
+    height: 80%;
+    display: none;
+  }
+
+  .carousel.carousel-slider .control-arrow,
+  .control-arrow .control-next {
+    margin-right: 25px;
+  }
+
+  #tolley {
+    height: 256px;
+  }
+  .tolley-gallery {
+    margin-top: 2px !important;
+    width: 100% !important;
+    height: 268px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body,
+  html {
+    height: 1000px !important;
+  }
+
+  .p__opensans {
+    font-size: 12px;
+    font-family: var(--font-base);
+  }
+
+  .p__cormorant {
+    font-size: 19px;
+  }
+
+  .headtext__cormorant {
+    font-size: 45px;
+    line-height: 70px;
+  }
+
+  .app__wrapper_img {
+    flex-direction: column;
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .header-imgs {
+    display: block !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 2px;
+    margin-bottom: 150px !important;
+  }
+
+  .header-imgs img {
+    width: 150px;
+    margin-left: 90px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+  }
+
+  .home-imgs {
+    display: block !important;
+    flex-direction: column !important;
+    gap: 2px;
+    width: 100% !important;
+    margin-top: -200px !important;
+  }
+
+  .home-imgs img {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* entertainment on mobile */
+  .entertainment {
+    margin-bottom: 5px;
+  }
+
+  .entertainment-p {
+    margin-left: 85px;
+  }
+
+  .entertainment-img {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 100% !important;
+  }
+
+  .hospitality-header {
+    margin-bottom: 5px;
+  }
+
+  .glenford {
+    width: 100%;
+  }
+
+  .subtitle h1 {
+    margin-left: 60px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px !important;
+    color: #000;
+  }
+  /* .app__wrapper_img {
+    flex-direction: column;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 2rem;
+    display: none;
+  } */
+}
