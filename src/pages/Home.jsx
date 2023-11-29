@@ -54,7 +54,7 @@ const Home = ({ index }) => {
         {/* <Navbar /> */}
 
         <Gallery2 />
-        <div className="app__wrapper_info whitespace-normal xl:ml-[150px] xl:mt-[100px]">
+        <div className="app__wrapper_info whitespace-normal md:mt-[60px] xl:ml-[150px] xl:mt-[100px]">
           <div className="subtitle 2xl:mt-[200px] 2xl:ml-[-80px]">
             <SubHeading title="Nashwood, Inc." />
           </div>
@@ -86,7 +86,7 @@ const Home = ({ index }) => {
       <Header />
 
       {/* gallery section on bottom of homepage */}
-      <div className=" bg-[#000] justify-center items-center xl:w-full xl:mt-[-550px] pt-[30px] pr-0 xl:block home-imgs">
+      <div className=" bg-[#000] justify-center items-center md:w-[100%] md:mt-[-580px] pb-5 xl:w-full xl:mt-[-550px] pt-[30px] pr-0 xl:block home-imgs">
         <div className="flex">
           <Tilt className="w-full ">
             <motion.div
@@ -105,7 +105,7 @@ const Home = ({ index }) => {
                 >
                   <img
                     src={url3}
-                    className="xl:w-[50%] object-contain"
+                    className="xl:w-[55%] md:w-[80%] object-contain m-0"
                     alt="entertainment-gallery"
                   />
                 </div>
@@ -129,7 +129,7 @@ const Home = ({ index }) => {
                 >
                   <img
                     src={url5}
-                    className="xl:w-[50%] object-contain"
+                    className="xl:w-[50%] md:w-[80%] justify-center items-center m-0 object-contain"
                     alt="production-gallery"
                   />
                 </div>
@@ -154,7 +154,7 @@ const Home = ({ index }) => {
                 >
                   <img
                     src={url4}
-                    className="xl:w-[70%] 2xl:w-[87%] object-contain tolley-gallery"
+                    className="xl:w-[68%] md:w-[85%] 2xl:w-[87%] object-contain tolley-gallery"
                     alt="tolley-house-gallery"
                   />
                 </div>

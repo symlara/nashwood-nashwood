@@ -71,7 +71,7 @@ const Header = () => (
 
       {/* <img src={url4} alt="realestate logo" className="rounded-xl" />
     </div> */}
-      <div className="flex xl:w-[50%] xl:ml-[690px] gap-2 justify-center items-center header-imgs 2xl:ml-[700px] 2xl:mt-[310px] 2xl:w-[60%]">
+      <div className="flex max-w-md md:mt-[60px] xl:w-[50%] xl:ml-[690px] gap-2 justify-center items-center header-imgs 2xl:ml-[700px] 2xl:mt-[310px] 2xl:w-[60%]">
         <div>
           <Tilt>
             <motion.div
@@ -85,7 +85,7 @@ const Header = () => (
                   <img
                     src={url}
                     alt="entertainment logo"
-                    className="rounded-xl xl:w-[70%] xl:mt-[-310px] xl:ml-[80px]"
+                    className="rounded-xl md:w-[40%] md:mt-[-450px] md:ml-[400px] xl:w-[70%] xl:mt-[-310px] xl:ml-[80px]"
                   />
                 </div>
               </motion.div>
@@ -106,7 +106,7 @@ const Header = () => (
                   <img
                     src={url2}
                     alt="hospitality-logo"
-                    className="rounded-xl xl:w-[77%] xl:mt-[-310px] xl:ml-[20px]"
+                    className="rounded-xl md:w-[56%] md:mt-[-450px] md:ml-[170px] xl:w-[77%] xl:mt-[-310px] xl:ml-[20px]"
                   />
                 </div>
               </motion.div>
@@ -127,7 +127,7 @@ const Header = () => (
                   <img
                     src={url4}
                     alt="real-estate-logo"
-                    className="rounded-xl xl:w-[82%] xl:mt-[-310px] xl:ml-[-20px]"
+                    className="rounded-xl md:w-[65%] md:mt-[-450px] md:ml-[55px] xl:w-[82%] xl:mt-[-310px] xl:ml-[-20px]"
                   />
                 </div>
               </motion.div>

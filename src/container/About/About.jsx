@@ -80,13 +80,13 @@ const About = () => {
           >
             <motion.div
               variants={fadeIn("left", "tween", 0.3, 1)}
-              className="app__aboutus-content_history xl:w-[80%] "
+              className="app__aboutus-content_history md:w-[75%] xl:w-[70%] 2xl:w-[60%]"
             >
               <LazyLoad>
                 <img
                   alt="keithweaver"
                   src={url2}
-                  className="xl:ml-[300px] rounded-xl"
+                  className="md:ml-[200px] xl:ml-[300px] rounded-xl"
                 />
               </LazyLoad>
             </motion.div>

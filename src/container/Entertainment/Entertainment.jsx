@@ -73,7 +73,7 @@ const Entertainment = () => (
           className=""
         >
           <motion.div variants={fadeIn("left", "tween", 0.3, 1)}>
-            <img src={entertainment} alt="singer" />
+            <img src={entertainment} alt="singer" className="md:ml-[100px]" />
           </motion.div>
         </motion.div>
       </div>
