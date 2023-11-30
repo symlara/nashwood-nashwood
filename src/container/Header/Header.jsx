@@ -85,7 +85,7 @@ const Header = () => (
                   <img
                     src={url}
                     alt="entertainment logo"
-                    className="rounded-xl md:w-[40%] md:mt-[-450px] md:ml-[400px] xl:w-[70%] xl:mt-[-310px] xl:ml-[80px]"
+                    className="rounded-xl md:w-[42%] md:mt-[-450px] md:ml-[380px] xl:w-[70%] xl:mt-[-310px] xl:ml-[80px]"
                   />
                 </div>
               </motion.div>
@@ -106,7 +106,7 @@ const Header = () => (
                   <img
                     src={url2}
                     alt="hospitality-logo"
-                    className="rounded-xl md:w-[74%] md:mt-[-450px] md:ml-[170px] xl:w-[77%] xl:mt-[-310px] xl:ml-[20px]"
+                    className="rounded-xl md:w-[53%] md:mt-[-450px] md:ml-[170px] xl:w-[77%] xl:mt-[-310px] xl:ml-[20px]"
                   />
                 </div>
               </motion.div>
@@ -127,7 +127,7 @@ const Header = () => (
                   <img
                     src={url4}
                     alt="real-estate-logo"
-                    className="rounded-xl md:w-[78%] md:mt-[-450px] md:ml-[123px] xl:w-[82%] xl:mt-[-310px] xl:ml-[-20px]"
+                    className="rounded-xl md:w-[63%] md:mt-[-450px] md:ml-[40px] xl:w-[82%] xl:mt-[-310px] xl:ml-[-20px]"
                   />
                 </div>
               </motion.div>
