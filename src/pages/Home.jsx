@@ -86,7 +86,7 @@ const Home = ({ index }) => {
       <Header />
 
       {/* gallery section on bottom of homepage */}
-      <div className=" bg-[#000] justify-center items-center md:w-[100%] md:mt-[-580px] pb-5 xl:w-full xl:mt-[-550px] pt-[30px] pr-0 xl:block home-imgs">
+      <div className=" bg-[#000] justify-center items-center md:w-[100%] md:mt-[-1080px] pb-5 xl:w-full xl:mt-[-550px] pt-[30px] pr-0 xl:block home-imgs">
         <div className="flex">
           <Tilt className="w-full ">
             <motion.div
@@ -154,7 +154,7 @@ const Home = ({ index }) => {
                 >
                   <img
                     src={url4}
-                    className="xl:w-[68%] md:w-[85%] 2xl:w-[87%] object-contain tolley-gallery"
+                    className="xl:w-[70%] md:w-[77%] 2xl:w-[87%] object-contain tolley-gallery"
                     alt="tolley-house-gallery"
                   />
                 </div>

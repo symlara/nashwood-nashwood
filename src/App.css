@@ -307,7 +307,7 @@ figure {
   }
 
   .humble-baron-logo {
-    margin-left: 330px;
+    margin-left: 270px;
   }
 
   .humble-baron-logo img {
@@ -319,17 +319,17 @@ figure {
   }
 
   .tolley-house {
-    margin-left: 180px;
+    margin-left: 80px;
     margin-top: 50px;
   }
 
-  .tolley-house-img {
-    margin-left: 290px;
-    width: 550px;
+  .tolley-house-img img {
+    margin-left: 198px;
+    width: 400px;
   }
 
   .hospitality h1 {
-    margin-left: 290px;
+    margin-left: 196px;
   }
 
   .hospitality p {
@@ -337,11 +337,16 @@ figure {
   }
 
   .hb {
-    margin-left: 180px;
+    margin-left: 85px;
+    white-space: nowrap;
   }
 
   .real-estate-pics img {
     width: 450px;
+  }
+
+  .header-imgs {
+    width: 100%;
   }
 }
 
@@ -395,8 +400,8 @@ figure {
     margin-left: -50px !important;
   }
 
-  .tolley-house-img {
-    width: 500px !important;
+  .tolley-house-img img {
+    width: 60% !important;
     margin-left: 80px;
     margin-top: -90px;
   }

@@ -30,7 +30,7 @@ const Footer = () => (
         <p className="p__raleway">+1 212-344-1230</p>
         <p className="p__raleway">+1 212-555-1230</p> */}
       </div>
-      <div className="app__footer-links_logo max-w-5xl">
+      <div className="app__footer-links_logo max-w-5xl md:ml-[800px]">
         <img src={nashwoodwatermark} alt="footer_logo" />
         {/* <p className="p__raleway">
           "The best way to find yourself is to lose yourself in the service of
@@ -47,15 +47,15 @@ const Footer = () => (
     <div className="footer__copyright 2xl:mt-[-250px] md:mt-[-450px]">
       <button
         type="button"
-        className=" bg-[#1a3a61] rounded-xl px-5 text-white cursor-pointer md:ml-[140px] xl:ml-[1000px] xl:mt-[-800px] relative"
+        className=" bg-[#1a3a61] rounded-xl px-5 text-white cursor-pointer xl:ml-[1000px] xl:mt-[-800px] relative"
       >
         <a href="#top">
           {/* <FaArrowUp />{" "} */}
           Back to Top
         </a>
       </button>
-      <p className="p__raleway md:ml-[60px]">
-        2023 Nashwood Inc. All Rights reserved.
+      <p className="p__raleway md:ml-[-25px]">
+        © 2023 Nashwood Inc. All Rights reserved.
       </p>
     </div>
   </div>

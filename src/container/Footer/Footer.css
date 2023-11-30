@@ -43,7 +43,7 @@
 
 .app__footer-links_icons {
   margin-left: -100px;
-  display: flex;
+  display: none;
 }
 
 .app__footer-links_icons svg {
@@ -103,21 +103,26 @@
     margin-left: 190px;
   }
 
+  .app__footer-links_contact h1 {
+    margin-left: 180px;
+  }
+
   .app__footer-links_icons {
     margin-top: -150px !important;
     margin-left: 170px;
+    display: none;
   }
 
   .app__footer-headtext {
     margin-left: 200px;
   }
 
-  .footer__copyright {
-    margin-left: -100px;
+  .footer__copyright p {
+    margin-left: -50px;
   }
 
   .footer__copyright button {
-    margin-left: 150px;
+    margin-left: 45px;
   }
 }
 
@@ -150,7 +155,7 @@
     margin-left: 10px;
   }
   .app__footer-links_icons {
-    display: flex;
+    display: none;
     margin-top: 10px !important;
     margin-left: 200px;
   }
@@ -161,11 +166,11 @@
   }
 
   .footer__copyright p {
-    margin-left: 80px;
+    margin-left: 10px;
   }
 
   .footer__copyright button {
-    margin-left: 150px;
+    margin-left: 100px;
   }
 }
 
