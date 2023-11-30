@@ -2,14 +2,19 @@ import React from "react";
 // import nashwoodlogo from "../../assets/nashwood-nw-icon-logo-wise-gray-rgb-640px-w-72ppi.png";
 // import keithweaver from "../../assets/KeithWeaver.jpg";
 
-const keith =
-  "https://user-images.githubusercontent.com/40181569/277808266-95f14a68-7d4b-458b-ab26-8a0e68fb32de.jpg";
+const url =
+  "https://user-images.githubusercontent.com/40181569/277809425-75a953e0-01fd-413f-b4c3-d47a1d21c1a8.png";
 const image = new Image();
-image.src = keith;
+image.src = url;
+
+const url2 =
+  "https://user-images.githubusercontent.com/40181569/277808266-95f14a68-7d4b-458b-ab26-8a0e68fb32de.jpg";
+const image2 = new Image();
+image2.src = url2;
 
 const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
-corsImage.src = keith + "?not=from-cache-please";
+corsImage.src = url + "?not=from-cache-please";
 
 import "./AboutUs.css";
 
@@ -18,9 +23,9 @@ const AboutUs = () => (
     className="app__aboutus app__bg flex__center section__padding"
     id="about"
   >
-    <div className="app__aboutus-overlay flex__center">
-      {/* <img src={nashwoodlogo} alt="nashwood logo" /> */}
-    </div>
+    {/* <div className="app__aboutus-overlay flex__center 2xl:mt-[-400px]">
+      <img src={url} alt="nashwood logo" />
+    </div> */}
     <div className="app__aboutus-content flex__center 2xl:mt-[-200px]">
       <div className="app__aboutus-content_about 2xl:mt-[-300px]">
         <h1 className="headtext__cormorant">About Us</h1>
@@ -49,7 +54,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <img
           alt="keithweaver"
-          src={keith}
+          src={url2}
           className="w-[50%] h-[50%] rounded-xl xl:ml-[70px] keith"
         />
       </div>

@@ -9,6 +9,7 @@
   flex-direction: column;
 
   background: var(--color-black);
+
   padding-top: 0;
 }
 
@@ -78,6 +79,7 @@
   }
 }
 
+/* ipad screens */
 @media screen and (max-width: 1150px) {
   .app__footer-links {
     align-items: center;
@@ -90,18 +92,53 @@
   .app__footer-links_work {
     margin: 2rem 0;
     width: 100%;
+    flex-direction: column;
+  }
+  .app__footer-links_logo {
+    margin-left: 920px;
+    margin-top: -25px;
+  }
+
+  .app__footer-links_contact p {
+    margin-left: 190px;
+  }
+
+  .app__footer-links_icons {
+    margin-top: -150px !important;
+    margin-left: 170px;
+  }
+
+  .app__footer-headtext {
+    margin-left: 200px;
+  }
+
+  .footer__copyright {
+    margin-left: -100px;
+  }
+
+  .footer__copyright button {
+    margin-left: 150px;
   }
 }
 
 @media screen and (max-width: 650px) {
   .app__footer {
     padding: 0 0 2rem 0;
+    margin-top: 180px;
+    height: 980px !important;
   }
 
   .app__footer-links_contact h1 {
-    margin-top: 50px;
-    margin-left: 215px;
-    font-size: 25px;
+    margin-top: 45px;
+    margin-left: 218px;
+  }
+
+  .app__footer-links_contact p {
+    margin-left: 115px;
+  }
+
+  .shelbyville p {
+    margin-left: 110px;
   }
 
   .app__footer-links_logo {
@@ -119,7 +156,16 @@
   }
 
   .footer__copyright {
-    margin-bottom: 300px;
+    margin-bottom: 200px !important;
+    margin-top: -200px;
+  }
+
+  .footer__copyright p {
+    margin-left: 80px;
+  }
+
+  .footer__copyright button {
+    margin-left: 150px;
   }
 }
 

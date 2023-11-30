@@ -1,15 +1,30 @@
 import React from "react";
+import { motion } from "framer-motion";
+import {
+  slideIn,
+  staggerContainer,
+  textVariant,
+  fadeIn,
+} from "../../../utils/motion";
 
-const realestate =
-  "https://user-images.githubusercontent.com/40181569/277804148-36c016ba-2b7c-4219-bedf-ca9025c353b0.jpg";
+// us bank
+const url =
+  "https://user-images.githubusercontent.com/40181569/280851025-5d381001-2bce-4f95-bdb6-ab75dde7dbcf.jpg";
 const image = new Image();
-image.src = realestate;
+image.src = url;
+
+// gazette building
+const url2 =
+  "https://user-images.githubusercontent.com/40181569/280851835-8014fae7-b5e4-4fca-a47a-71d74b387422.jpg";
+const image2 = new Image();
+image.src = url2;
 
 const corsImage = new Image();
 corsImage.crossOrigin = "Anonymous";
-corsImage.src = realestate + "?not=from-cache-please";
+corsImage.src = url + "?not=from-cache-please";
 
-import "../AboutUs/AboutUs.css";
+import Header from "../Header/Header";
+import "../About/About.css";
 
 const RealEstate = () => (
   <div
@@ -20,18 +35,27 @@ const RealEstate = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Real Estate</h1>
-        {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-        <p
-          className="p__raleway flex-wrap 2xl:text-lg"
-          style={{ margin: "2rem 0", marginLeft: "-30px" }}
+      <div className="app__aboutus-content_about 2xl:mt-[-550px] xl:mt-[-100px]">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
         >
-          Nashwood owns a range of commercial and residential property interests
-          to include: The Shelbyville-Times Gazette Building, U.S. Bank
-          Building, The Tolley House, Cedar Ridge Farm, as well as luxury
-          residential real estate interests throughout the country.
-        </p>
+          <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className="real-estate">
+            <h1 className="headtext__cormorant">Real Estate</h1>
+            <p
+              className="p__raleway flex-wrap 2xl:text-lg"
+              style={{ margin: "2rem 0", marginLeft: "-30px" }}
+            >
+              Nashwood owns a range of commercial and residential property
+              interests to include: The Shelbyville-Times Gazette Building, U.S.
+              Bank Building, The Tolley House, Cedar Ridge Farm, as well as
+              luxury residential real estate interests throughout the country.
+            </p>
+          </motion.div>
+        </motion.div>
+
         {/* <button type="button" className="custom__button">
           Know More
         </button> */}
@@ -39,18 +63,30 @@ const RealEstate = () => (
       <div className="app__aboutus-content_knife flex__center">
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
-      <div className="app__aboutus-content_history">
+      <div className="app__aboutus-content_history real-estate-pics 2xl:mt-[100px]">
+        <motion.div
+          variants={staggerContainer}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+        >
+          <motion.div variants={fadeIn("left", "tween", 0.3, 1)}>
+            <img src={url} alt="us bank" className="us-bank" />
+            <img src={url2} alt="gazette building" className="pt-10" />
+          </motion.div>
+        </motion.div>
+
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         {/* <img
           src={images.entertainment}
           className="w-[50%] h-[50%] rounded-xl xl:ml-[150px]"
         /> */}
-        <img
+        {/* <img
           src={realestate}
           alt="realestate logo"
           className="w-[50%] h-[50%] rounded-xl xl:ml-[70px]"
-        />
+        /> */}
 
         {/* <p className="p__raleway">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra

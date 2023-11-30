@@ -1,7 +1,8 @@
 .app__aboutus {
   position: relative;
-  background-color: var(--color-blue);
+  /* background-color: var(--color-blue); */
   background-size: cover;
+  padding-top: 400px;
 }
 
 .app__aboutus-overlay {
@@ -30,15 +31,7 @@
   align-items: center;
   flex-direction: column;
 
-  text-align: right;
-}
-
-.app__aboutus-content_knife {
-  margin: 2rem 4rem;
-}
-
-.app__aboutus-content_knife img {
-  height: 910px;
+  text-align: left;
 }
 
 .app__aboutus-content_history {
@@ -49,6 +42,14 @@
   flex-direction: column;
 
   text-align: left;
+}
+
+.app__aboutus-content_history img {
+  width: 70%;
+}
+
+.keith {
+  width: 65% !important;
 }
 
 .app__aboutus-content_history p,
@@ -83,6 +84,19 @@
 
 @media screen and (max-width: 650px) {
   .app__aboutus-content_history img {
+    width: 70% !important;
+  }
+
+  .app__aboutus-content_about {
+    margin-top: -100px;
+  }
+
+  .hb {
+    margin-top: 100px !important;
+    margin-left: -50px !important;
+  }
+
+  .app__aboutus-content_history img {
     width: 80%;
     margin-top: -100px;
   }
@@ -102,8 +116,35 @@
     font-size: 15px;
   }
 
+  .about p {
+    margin-top: 180px !important;
+    margin-right: -50px !important;
+  }
+
+  .app__aboutus-content_about h1 {
+    margin-top: -50px;
+    margin-left: -35px;
+  }
+
+  .keith {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    width: 80% !important;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+
   .real-estate p {
     margin-left: -10px !important;
     white-space: normal !important;
+  }
+
+  .hospitality-imgs img {
+    margin-top: 10px;
+    width: 100% !important;
+    margin-left: 15px;
   }
 }
