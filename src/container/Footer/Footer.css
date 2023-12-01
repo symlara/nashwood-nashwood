@@ -28,7 +28,7 @@
 .app__footer-links_logo,
 .app__footer-links_work {
   flex: 1;
-  margin: 1rem;
+  margin: 2rem;
   text-align: center;
 }
 
@@ -103,19 +103,15 @@
     margin-left: 190px;
   }
 
-  .app__footer-links_contact h1 {
-    margin-left: 180px;
-  }
-
   .app__footer-links_icons {
     margin-top: -150px !important;
     margin-left: 170px;
     display: none;
   }
 
-  .app__footer-headtext {
-    margin-left: 200px;
-  }
+  /* .app__footer-headtext {
+    margin-left: 230px !important;
+  } */
 
   .footer__copyright p {
     margin-left: -50px;
