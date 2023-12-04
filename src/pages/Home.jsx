@@ -86,7 +86,7 @@ const Home = ({ index }) => {
       <Header />
 
       {/* gallery section on bottom of homepage */}
-      <div className=" bg-[#000] justify-center items-center md:w-[100%] pb-5 xl:w-full xl:mt-[-550px] pt-[30px] pr-0 xl:block home-imgs">
+      <div className=" bg-[#000] justify-center items-center md:w-[100%] md:mt-[-600px] pb-5 xl:w-full xl:mt-[-550px] pt-[30px] pr-0 xl:block home-imgs">
         <div className="flex">
           <Tilt className="w-full ">
             <motion.div
@@ -96,16 +96,16 @@ const Home = ({ index }) => {
               viewport={{ once: false, amount: 0.25 }}
             >
               <motion.div
-                className="w-full p-[1px] rounded-[20px]"
+                className="w-full p-[1px] rounded-[20px] md:ml-[-60px] xl:ml-[-60px]"
                 variants={fadeIn("top", "tween", 0.3, 2)}
               >
                 <div
                   options={{ max: 35, scale: 1, speed: 450 }}
-                  className="xl:ml-[-150px] rounded-[20px] min-h-[280px] flex justify-evenly items-center flex-col"
+                  className="rounded-[20px] min-h-[280px] flex items-center flex-col"
                 >
                   <img
                     src={url3}
-                    className="xl:w-[55%] md:w-[100%] object-contain "
+                    className="xl:w-[70%] object-contain entertainment-gallery"
                     alt="entertainment-gallery"
                   />
                 </div>
@@ -120,16 +120,16 @@ const Home = ({ index }) => {
               viewport={{ once: false, amount: 0.25 }}
             >
               <motion.div
-                className="w-full p-[1px] rounded-[20px]"
+                className="w-full p-[1px] rounded-[20px] md:ml-[-90px] xl:ml-[-150px]"
                 variants={fadeIn("top", "tween", 0.5, 2)}
               >
                 <div
                   options={{ max: 35, scale: 1, speed: 450 }}
-                  className=" xl:ml-[-330px] rounded-[20px] min-h-[280px] flex justify-evenly items-center flex-col"
+                  className="rounded-[20px] min-h-[280px] flex items-center flex-col"
                 >
                   <img
                     src={url5}
-                    className="xl:w-[50%] md:w-[80%] justify-center items-center m-0 object-contain"
+                    className="xl:w-[77%] justify-center items-center m-0 object-contain production-gallery"
                     alt="production-gallery"
                   />
                 </div>
@@ -145,16 +145,16 @@ const Home = ({ index }) => {
               viewport={{ once: false, amount: 0.25 }}
             >
               <motion.div
-                className="w-full p-[1px] rounded-[20px]"
+                className="w-full p-[1px] rounded-[20px] md:ml-[-5px] xl:ml-[-100px]"
                 variants={fadeIn("top", "tween", 0.7, 2)}
               >
                 <div
                   options={{ max: 35, scale: 1, speed: 450 }}
-                  className=" xl:ml-[-200px] rounded-[20px] min-h-[280px] flex justify-evenly items-center flex-col"
+                  className="rounded-[20px] min-h-[280px] flex items-center flex-col"
                 >
                   <img
                     src={url4}
-                    className="xl:w-[70%] md:w-[77%] 2xl:w-[87%] object-contain tolley-gallery"
+                    className="xl:w-[380px] 2xl:w-[87%] object-contain tolley-gallery"
                     alt="tolley-house-gallery"
                   />
                 </div>

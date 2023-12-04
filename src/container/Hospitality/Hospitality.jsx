@@ -66,15 +66,13 @@ const Hospitality = () => (
             >
               <motion.div
                 variants={fadeIn("right", "tween", 0.3, 1)}
-                className="hospitality"
+                className="hospitality xl:ml-[115px]"
               >
-                <h1 className="headtext__cormorant xl:ml-[230px]">
-                  Hospitality
-                </h1>
+                <h1 className="headtext__cormorant">Hospitality</h1>
                 <div className="hospitality-p">
                   <p
                     className="p__raleway flex-wrap 2xl:text-lg"
-                    style={{ margin: "2rem 0", marginLeft: "-70px" }}
+                    style={{ margin: "2rem 0" }}
                   >
                     Esse incididunt exercitation fugiat ullamco sunt aute ut
                     tempor enim aliquip enim id. Reprehenderit voluptate cillum

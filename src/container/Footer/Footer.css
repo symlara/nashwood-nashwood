@@ -94,13 +94,18 @@
     width: 100%;
     flex-direction: column;
   }
-  .app__footer-links_logo {
-    margin-left: 920px;
+
+  .app__footer-links_contact h1 {
+    margin-left: 250px;
+  }
+
+  .app__footer-links_logo img {
+    margin-left: 100px;
     margin-top: -25px;
   }
 
   .app__footer-links_contact p {
-    margin-left: 190px;
+    margin-left: 260px;
   }
 
   .app__footer-links_icons {
@@ -114,11 +119,11 @@
   } */
 
   .footer__copyright p {
-    margin-left: -50px;
+    margin-left: 20px;
   }
 
   .footer__copyright button {
-    margin-left: 45px;
+    margin-left: 120px;
   }
 }
 

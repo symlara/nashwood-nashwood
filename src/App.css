@@ -307,7 +307,7 @@ figure {
   }
 
   .humble-baron-logo {
-    margin-left: 270px;
+    margin-left: 380px;
   }
 
   .humble-baron-logo img {
@@ -315,29 +315,42 @@ figure {
   }
 
   .tolley-house-p {
-    margin-left: 100px;
+    margin-left: 250px;
   }
 
   .tolley-house {
-    margin-left: 80px;
+    margin-left: 285px;
     margin-top: 50px;
+    white-space: nowrap;
   }
 
   .tolley-house-img img {
-    margin-left: 198px;
+    margin-left: 300px;
     width: 400px;
   }
 
+  .tolley-gallery {
+    width: 312px !important;
+  }
+
+  .entertainment-gallery {
+    width: 350px !important;
+  }
+
+  .production-gallery {
+    width: 350px;
+  }
+
   .hospitality h1 {
-    margin-left: 196px;
+    margin-left: 300px;
   }
 
   .hospitality p {
-    margin-left: 60px !important;
+    margin-left: 220px !important;
   }
 
   .hb {
-    margin-left: 85px;
+    margin-left: 192px;
     white-space: nowrap;
   }
 
@@ -397,7 +410,7 @@ figure {
     justify-content: center;
     display: flex;
     margin-top: 150px !important;
-    margin-left: -50px !important;
+    margin-left: 30px !important;
   }
 
   .tolley-house-img img {
@@ -416,13 +429,13 @@ figure {
     margin-top: -10px;
   }
 
-  .tolley-house-p p {
+  .tolley-house-p {
     display: flex !important;
     flex: 1 !important;
     width: 100% !important;
     justify-content: center !important;
     flex-direction: column !important;
-    margin-left: 10px;
+    margin-left: 80px !important;
     margin-top: 20px !important;
   }
 
@@ -476,11 +489,6 @@ figure {
 
   #tolley {
     height: 256px;
-  }
-  .tolley-gallery {
-    margin-top: 2px !important;
-    width: 100% !important;
-    height: 262px;
   }
 }
 
@@ -539,6 +547,20 @@ figure {
     margin: 0;
     justify-content: center;
     align-items: center;
+  }
+
+  .entertainment-gallery {
+    width: 100% !important;
+  }
+
+  .production-gallery {
+    width: 100% !important;
+  }
+
+  .tolley-gallery {
+    width: 100% !important;
+    height: 265px;
+    margin-top: -87px !important;
   }
 
   /* entertainment on mobile */

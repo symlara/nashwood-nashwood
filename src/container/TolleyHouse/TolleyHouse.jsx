@@ -25,7 +25,7 @@ const TolleyHouse = () => (
     <div>
       <div>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-        <div className="tolley-house-p app__aboutus-content_about 2xl:ml-[10px] xl:ml-[-30px]">
+        <div className=" app__aboutus-content_about 2xl:ml-[10px] xl:ml-[-30px]">
           <motion.div
             variants={staggerContainer}
             initial="hidden"
@@ -33,22 +33,24 @@ const TolleyHouse = () => (
             viewport={{ once: false, amount: 0.25 }}
           >
             <motion.div variants={fadeIn("right", "tween", 0.3, 1)}>
-              <h1 className="tolley-house text-white headtext__cormorant xl:ml-[245px] 2xl:text-5xl">
+              <h1 className="tolley-house text-white headtext__cormorant xl:ml-[400px] 2xl:text-5xl">
                 Tolley House
               </h1>
-              <p
-                className="p__raleway flex-wrap 2xl:text-lg"
-                style={{ margin: "2rem 0", marginLeft: "-30px" }}
-              >
-                The Tolley House is the most storied Bed & Breakfast in
-                Lynchburg, Tennessee. One of historic Lynchburg’s oldest
-                antebellum homes, Tolley House, a boutique inn, was once owned
-                by Lem Motlow and Lem Tolley, the former master distiller for
-                Jack Daniel’s Distillery. The Tolley House is just a mile from
-                Lynchburg’s town square, <br />
-                where you can visit shops and take in the beauty of the historic
-                town.
-              </p>
+              <div className="xl:ml-[130px] tolley-house-p">
+                <p
+                  className="p__raleway flex-wrap 2xl:text-lg whitespace-pre-wrap"
+                  style={{ margin: "2rem 5rem", marginLeft: "-30px" }}
+                >
+                  The Tolley House is the most storied Bed & Breakfast in
+                  Lynchburg, Tennessee. One of historic Lynchburg’s oldest
+                  antebellum homes, Tolley House, a boutique inn, was once owned
+                  by Lem Motlow and Lem Tolley, the former master distiller for
+                  Jack Daniel’s Distillery. The Tolley House is just a mile from
+                  Lynchburg’s town square, <br />
+                  where you can visit shops and take in the beauty of the
+                  historic town.
+                </p>
+              </div>
             </motion.div>
           </motion.div>
         </div>

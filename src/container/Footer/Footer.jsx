@@ -19,19 +19,23 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         {/* Will link off to a CRM tool */}
-        <h1 className="app__footer-headtext max-w-5xl">Contact Us</h1>
-        <p className="p__raleway max-w-5xl">
+        <h1 className="app__footer-headtext xl:ml-[100px]">Contact Us</h1>
+        <p className="p__raleway xl:ml-[100px]">
           323 Depot St., Shelbyville, Tennessee 37160
         </p>
         <div className="shelbyville">
-          <p className="p__raleway max-w-5xl">931-325-6279</p>
+          <p className="p__raleway xl:ml-[100px] xl:p-[5px]">931-325-6279</p>
         </div>
         {/* <p className="p__raleway">9 W 53rd St, New York, NY 10019, USA</p>
         <p className="p__raleway">+1 212-344-1230</p>
         <p className="p__raleway">+1 212-555-1230</p> */}
       </div>
       <div className="app__footer-links_logo max-w-5xl md:ml-[800px]">
-        <img src={nashwoodwatermark} alt="footer_logo" />
+        <img
+          src={nashwoodwatermark}
+          alt="footer_logo"
+          className="xl:ml-[-520px]"
+        />
         {/* <p className="p__raleway">
           "The best way to find yourself is to lose yourself in the service of
           others.”
@@ -44,17 +48,20 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="footer__copyright 2xl:mt-[-250px] md:mt-[-450px]">
-      <button
-        type="button"
-        className=" bg-[#1a3a61] rounded-xl px-5 text-white cursor-pointer xl:ml-[1000px] xl:mt-[-800px] relative"
-      >
-        <a href="#top">
-          {/* <FaArrowUp />{" "} */}
-          Back to Top
-        </a>
-      </button>
-      <p className="p__raleway md:ml-[-25px]">
+    <div className="footer__copyright 2xl:mt-[-250px] ">
+      <div className="xl:mt-[-950px]">
+        <button
+          type="button"
+          className="bg-[#1a3a61] rounded-xl px-5 text-white cursor-pointer xl:ml-[1000px] relative"
+        >
+          <a href="#top">
+            {/* <FaArrowUp />{" "} */}
+            Back to Top
+          </a>
+        </button>
+      </div>
+
+      <p className="p__raleway xl:mt-[600px] xl:ml-[360px] md:ml-[-25px]">
         © 2023 Nashwood Inc. All Rights reserved.
       </p>
     </div>

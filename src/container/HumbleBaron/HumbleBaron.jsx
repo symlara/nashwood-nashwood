@@ -34,13 +34,13 @@ const HumbleBaron = () => (
             viewport={{ once: false, amount: 0.25 }}
           >
             <motion.div variants={fadeIn("right", "tween", 0.3, 1)}>
-              <h1 className="headtext__cormorant hb xl:ml-[269px]">
+              <h1 className="headtext__cormorant hb xl:ml-[430px]">
                 Humble Baron
               </h1>
 
               <p
                 className="p__raleway flex-wrap 2xl:text-lg"
-                style={{ margin: "2rem 0  ", marginLeft: "-30px" }}
+                style={{ margin: "2rem 0  ", marginLeft: "120px" }}
               >
                 Humble Baron is Middle Tennessee’s newest restaurant, bar and
                 entertainment venue, located on the property of the iconic
