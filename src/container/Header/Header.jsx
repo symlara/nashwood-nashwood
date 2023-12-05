@@ -71,7 +71,7 @@ const Header = () => (
 
       {/* <img src={url4} alt="realestate logo" className="rounded-xl" />
     </div> */}
-      <div className="flex max-w-md md:mt-[60px] xl:w-[50%] xl:ml-[690px] gap-2 justify-center items-center header-imgs 2xl:ml-[700px] 2xl:mt-[310px] 2xl:w-[60%]">
+      <div className="flex max-w-md md:mt-[60px] xl:w-[50%] xl:mt-[-100px] xl:ml-[630px] gap-2 justify-center items-center header-imgs 2xl:ml-[700px] 2xl:mt-[310px] 2xl:w-[60%]">
         <div>
           <Tilt>
             <motion.div

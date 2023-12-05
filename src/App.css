@@ -157,7 +157,7 @@
 }
 
 /* max screen size styles */
-@media (max-width: 2240px) {
+@media screen and (min-width: 2240px) {
   .app__wrapper_img img {
     width: 70% !important;
   }
@@ -224,18 +224,25 @@ figure {
 
 /* hp screens  */
 @media screen and (min-width: 1280px) {
+  .hb {
+    margin-left: 50px !important;
+  }
+
   .humble-baron-logo img {
-    margin-left: 880px;
-    margin-top: -300px;
+    width: 80%;
+    margin-left: 100px !important;
+    margin-top: -150px;
   }
 
   .tolley-house-img img {
-    margin-left: 840px;
-    margin-top: -280px;
+    width: 70% !important;
+    margin-left: 60px !important;
+    margin-top: -100px;
   }
 
-  .tolley-house-p p {
-    margin-left: -55px !important;
+  .tolley-house h1 {
+    margin-top: -100px !important;
+    margin-left: -20px !important;
   }
 
   .nashwood-inc {
@@ -251,16 +258,17 @@ figure {
     margin-top: 100px;
   }
 
-  .tolley-house-p p {
-    margin-left: -45px !important;
-  }
-
   .hospitality {
     margin-left: -45px;
   }
 
-  .longest-bar {
-    margin-left: -45px;
+  .longest-bar p {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center;
+    flex-direction: column !important;
+    text-align: left !important;
   }
 
   .hospitality h1 {
@@ -277,7 +285,7 @@ figure {
 }
 
 /* ipad screens */
-@media screen and (max-width: 1150px) {
+@media screen and (min-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
   }
@@ -306,27 +314,28 @@ figure {
     margin-left: 100px;
   }
 
-  .humble-baron-logo {
-    margin-left: 380px;
+  .humble-baron-logo img {
+    margin-left: 70px;
   }
 
-  .humble-baron-logo img {
-    width: 252px;
+  .humble-baron-logo {
+    width: 100% !important;
+  }
+
+  .tolley-house h1 {
+    margin-top: -100px !important;
+    margin-left: 15px;
   }
 
   .tolley-house-p {
-    margin-left: 250px;
-  }
-
-  .tolley-house {
-    margin-left: 285px;
-    margin-top: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
     white-space: nowrap;
   }
 
   .tolley-house-img img {
-    margin-left: 300px;
-    width: 400px;
+    margin-left: 130px !important;
+    width: 100%;
   }
 
   .tolley-gallery {
@@ -392,51 +401,45 @@ figure {
     display: flex;
   }
 
+  .hb-bar h1 {
+    margin-left: 40px !important;
+  }
+
   .humble-baron p {
     display: none;
   }
 
-  .humble-baron-logo {
-    margin-left: 100px;
-    margin-top: 30px;
+  .humble-baron-logo img {
+    margin-left: 20px;
+    margin-top: 80px !important;
   }
 
   .humble-baron-logo img {
     width: 60% !important;
   }
 
-  .tolley-house {
+  .tolley-house h1 {
     align-content: center;
     justify-content: center;
     display: flex;
-    margin-top: 150px !important;
+    margin-top: -100px !important;
     margin-left: 30px !important;
   }
 
   .tolley-house-img img {
-    width: 60% !important;
-    margin-left: 80px;
-    margin-top: -90px;
+    width: 70% !important;
+    margin-left: 10px;
+    margin-top: 100px !important;
   }
 
-  .longest-bar p {
+  .tolley-house-p p {
     display: flex !important;
     flex: 1 !important;
     width: 100% !important;
     justify-content: center !important;
     flex-direction: column !important;
-    margin-left: 180px;
-    margin-top: -10px;
-  }
-
-  .tolley-house-p {
-    display: flex !important;
-    flex: 1 !important;
-    width: 100% !important;
-    justify-content: center !important;
-    flex-direction: column !important;
-    margin-left: 80px !important;
-    margin-top: 20px !important;
+    margin-left: 40px !important;
+    margin-top: 100px !important;
   }
 
   .hospitality h1 {

@@ -35,14 +35,17 @@ const RealEstate = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about 2xl:mt-[-550px] xl:mt-[-100px]">
+      <div className="app__aboutus-content_about 2xl:mt-[-550px] xl:mt-[-180px]">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
         >
-          <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className="real-estate">
+          <motion.div
+            variants={fadeIn("right", "tween", 0.3, 1)}
+            className="real-estate"
+          >
             <h1 className="headtext__cormorant">Real Estate</h1>
             <p
               className="p__raleway flex-wrap 2xl:text-lg"

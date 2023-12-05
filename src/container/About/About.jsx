@@ -29,7 +29,7 @@ const About = () => {
       id="about"
     >
       <div className="app__aboutus-content flex__center">
-        <div className=" 2xl:mt-[-200px] xl:mt-[70px] app__aboutus-content_about">
+        <div className=" 2xl:mt-[-200px] xl:mt-[30px] app__aboutus-content_about">
           <motion.div
             variants={staggerContainer}
             initial="hidden"

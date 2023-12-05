@@ -24,7 +24,7 @@ const Entertainment = () => (
       <img src={images.entertainment} alt="entertainment logo" />
     </div> */}
     <div className="app__aboutus-content flex__center">
-      <div className="app__aboutus-content_about 2xl:mt-[-200px] xl:mt-[70px]">
+      <div className="app__aboutus-content_about 2xl:mt-[-200px] xl:mt-[30px]">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
